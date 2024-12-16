@@ -1,0 +1,2790 @@
+data = {
+  "intents": [
+      {
+          "tag": "accident_vasculaire_cerebral",
+          "patterns": [
+              "J'ai la bouche de travers",
+              "Ma bouche est déformée",
+              "J'ai du mal à parler soudainement",
+              "Je n'arrive plus à bouger mon bras",
+              "Mon bras est tout engourdi",
+              "Ma jambe ne répond plus",
+              "J'ai des difficultés à articuler",
+              "Ma vision est troublée soudainement",
+              "J'ai perdu la vue d'un œil brutalement",
+              "Je vois double",
+              "J'ai un violent mal de tête",
+              "Mon visage est engourdi d'un côté",
+              "Je n'arrive plus à sourire normalement",
+              "Mon proche a la bouche de travers",
+              "Quelqu'un près de moi a du mal à parler",
+              "Mon parent n'arrive plus à bouger son bras",
+              "Est-ce que je fais un AVC ?",
+              "Symptômes d'un AVC",
+              "Comment savoir si c'est un AVC ?",
+              "Signes AVC",
+              "Test AVC",
+              "Je suis confus et j'ai du mal à parler",
+              "La moitié de mon corps est engourdie",
+              "J'ai des vertiges et je vois trouble",
+              "Mon visage est paralysé d'un côté"
+          ],
+          "responses": [
+              "⚡ URGENCE VITALE - APPELEZ IMMÉDIATEMENT LE 15 (SAMU)\n\nSignes d'AVC à vérifier (FAST) :\n- F(ace) : Bouche/visage déformé ?\n- A(rm) : Faiblesse bras/jambe ?\n- S(peech) : Troubles de la parole ?\n- T(ime) : Heure de début des symptômes ?\n\nEn attendant les secours :\n1. Allongez la personne\n2. Notez l'heure des premiers symptômes\n3. Ne donnez rien à boire ou manger\n\nIMPORTANT : Plus la prise en charge est rapide, plus les chances de récupération sont grandes."
+          ]
+      },
+      {
+          "tag": "crise_cardiaque",
+          "patterns": [
+              "J'ai une douleur dans la poitrine",
+              "Forte pression dans la poitrine",
+              "Douleur qui serre dans la poitrine",
+              "J'ai mal au bras gauche",
+              "Douleur thoracique qui irradie dans le bras",
+              "Je transpire et j'ai mal à la poitrine",
+              "Douleur à la mâchoire et dans la poitrine",
+              "J'ai du mal à respirer avec une douleur thoracique",
+              "Sensation d'étau dans la poitrine",
+              "Nausées et douleur thoracique",
+              "Oppression thoracique",
+              "Est-ce que je fais un infarctus ?",
+              "Symptômes crise cardiaque",
+              "Signes d'une attaque cardiaque",
+              "J'ai des sueurs froides et mal à la poitrine",
+              "Ma poitrine me fait très mal, est-ce grave ?",
+              "Douleur thoracique avec essoufflement",
+              "J'étouffe et j'ai mal à la poitrine",
+              "Je me sens très mal avec une douleur thoracique",
+              "La poitrine me serre terriblement"
+          ],
+          "responses": [
+              "⚡ URGENCE VITALE - APPELEZ IMMÉDIATEMENT LE 15 (SAMU)\n\nSIGNES D'INFARCTUS :\n- Douleur/serrement thoracique intense\n- Irradiation possible : bras gauche, mâchoire, dos\n- Sueurs froides, nausées\n- Difficultés à respirer\n\nEN ATTENDANT LES SECOURS :\n1. Position demi-assise\n2. Desserrez les vêtements\n3. Ne faites aucun effort\n4. Si prescrit : Prenez votre trinitrine\n\nIMPORTANT : Chaque minute compte pour sauver le muscle cardiaque."
+          ]
+      },
+      {
+          "tag": "reaction_allergique_severe",
+          "patterns": [
+              "Ma gorge gonfle",
+              "J'ai du mal à respirer après avoir mangé",
+              "Gonflement du visage soudain",
+              "Urticaire qui se propage partout",
+              "J'étouffe après une piqûre d'insecte",
+              "Réaction allergique grave",
+              "Choc anaphylactique",
+              "Ma langue gonfle",
+              "Je ne peux plus avaler",
+              "Démangeaisons intenses partout",
+              "Difficulté à respirer après exposition allergène",
+              "Gonflement des lèvres soudain",
+              "Je suffoque après avoir mangé",
+              "Réaction allergique qui empire",
+              "Ma gorge se serre de plus en plus",
+              "Sensation d'étouffement après allergène",
+              "Je fais un œdème de Quincke",
+              "Allergie grave que faire",
+              "Gonflement rapide du visage",
+              "Je ne peux plus respirer allergie"
+          ],
+          "responses": [
+              "⚡ URGENCE VITALE - APPELEZ IMMÉDIATEMENT LE 15 (SAMU)\n\nSIGNES DE CHOC ANAPHYLACTIQUE :\n- Gonflement visage/gorge\n- Difficultés respiratoires\n- Urticaire généralisée\n- Malaise\n\nEN ATTENDANT LES SECOURS :\n1. Utilisez votre stylo d'adrénaline si prescrit\n2. Position demi-assise\n3. Notez l'heure et l'allergène probable\n\nIMPORTANT : Ne restez pas seul, la situation peut s'aggraver rapidement."
+          ]
+      },
+      {
+          "tag": "hemorragie_grave",
+          "patterns": [
+              "Je saigne beaucoup",
+              "Hémorragie importante",
+              "Plaie qui saigne abondamment",
+              "Saignement qui ne s'arrête pas",
+              "Perte de sang importante",
+              "Blessure profonde qui saigne",
+              "Coupure grave avec beaucoup de sang",
+              "Comment arrêter une hémorragie",
+              "Saignement important que faire",
+              "Plaie artérielle",
+              "Je perds beaucoup de sang",
+              "Hémorragie externe massive",
+              "Saignement incontrôlable",
+              "Blessure avec artère touchée",
+              "Accident avec hémorragie",
+              "Saignement pulsatile",
+              "Compression plaie qui saigne",
+              "Garrot hémorragie",
+              "Premiers secours hémorragie",
+              "Arrêter saignement important"
+          ],
+          "responses": [
+              "⚡ URGENCE VITALE - APPELEZ IMMÉDIATEMENT LE 15 (SAMU)\n\nPREMIERS GESTES :\n1. Compression directe sur la plaie\n2. Position allongée\n3. Surélever le membre si possible\n4. Garrot en dernier recours (noter l'heure)\n\nSURVEILLANCE :\n- Pouls\n- Conscience\n- Pâleur/sueurs\n\nIMPORTANT : Maintenez la compression jusqu'à l'arrivée des secours."
+          ]
+      },
+      {
+          "tag": "traumatisme_cranien",
+          "patterns": [
+              "Choc violent à la tête",
+              "J'ai reçu un coup sur la tête",
+              "Je suis tombé sur la tête",
+              "Perte de connaissance après choc",
+              "Mal de tête violent après choc",
+              "Vomissements après coup à la tête",
+              "Vision trouble après choc crânien",
+              "Confusion après coup à la tête",
+              "Traumatisme crânien que faire",
+              "Commotion cérébrale signes",
+              "Somnolence après choc tête",
+              "Nausées après coup sur la tête",
+              "Vertiges après choc crânien",
+              "Pupilles différentes après choc",
+              "Saignement oreille après choc",
+              "Amnésie après coup tête",
+              "Désorientation après choc",
+              "Maux de tête violents après chute",
+              "Comportement bizarre après choc",
+              "Convulsions après traumatisme"
+          ],
+          "responses": [
+              "⚡ URGENCE - APPELEZ LE 15 (SAMU) si :\n- Perte de connaissance\n- Vomissements répétés\n- Confusion/somnolence\n- Comportement anormal\n- Maux de tête violents\n\nEN ATTENDANT :\n1. Surveillez conscience\n2. Position latérale si inconscient\n3. Notez les symptômes\n\nSURVEILLANCE 48H :\n- Maux de tête\n- Nausées\n- Troubles visuels\n\nIMPORTANT : Ne laissez pas la personne seule les premières heures."
+          ]
+      },
+      {
+          "tag": "convulsions",
+          "patterns": [
+              "Il fait une crise d'épilepsie",
+              "Convulsions que faire",
+              "Personne qui convulse",
+              "Crise convulsive",
+              "Tremblements incontrôlables",
+              "Mouvements involontaires violents",
+              "Spasmes généralisés",
+              "Perte de connaissance avec convulsions",
+              "Épilepsie crise que faire",
+              "Secours convulsions",
+              "Il se raidit et convulse",
+              "Premiers secours épilepsie",
+              "Écume à la bouche convulsions",
+              "Yeux révulsés convulsions",
+              "Chute avec convulsions",
+              "Crise épileptique assistance",
+              "Secourir personne convulsions",
+              "Protection pendant convulsions",
+              "Position convulsions",
+              "Que faire crise épilepsie"
+          ],
+          "responses": [
+              "⚡ APPELEZ LE 15 (SAMU) OU LES POMPIERS (18)\n\nPENDANT LA CRISE :\n1. Écartez les objets dangereux\n2. Protégez la tête\n3. NE RIEN METTRE DANS LA BOUCHE\n4. Notez l'heure de début\n\nAPRÈS LA CRISE :\n- Position latérale de sécurité\n- Rassurez la personne\n- Laissez reposer\n\nIMPORTANT : Appelez si :\n- Première crise\n- Durée > 5 minutes\n- Crises répétées"
+          ]
+      },
+      {
+          "tag": "brulure_grave",
+          "patterns": [
+              "Brûlure étendue",
+              "Brûlure profonde",
+              "Brûlure au visage",
+              "Brûlure chimique",
+              "Brûlure électrique",
+              "Peau cloquée étendue",
+              "Brûlure sur tout le bras",
+              "Brûlure au second degré",
+              "Grave brûlure que faire",
+              "Surface brûlée importante",
+              "Brûlure qui fait très mal",
+              "Soins brûlure grave",
+              "Premiers secours brûlure",
+              "Brûlure thorax",
+              "Brûlure mains",
+              "Brûlure enfant étendue",
+              "Peau arrachée brûlure",
+              "Brûlure noirâtre",
+              "Brûlure avec cloques",
+              "Brûlure très douloureuse"
+          ],
+          "responses": [
+              "⚡ URGENCE - APPELEZ LE 15 (SAMU)\n\nPREMIERS GESTES :\n1. Refroidir 10 min à l'eau tiède\n2. NE PAS PERCER LES CLOQUES\n3. Ne pas mettre de produit\n\nURGENCE SI :\n- Visage/mains/articulations\n- Surface étendue\n- Brûlure électrique/chimique\n- Enfant/personne âgée\n\nIMPORTANT : \n- Retirez vêtements sauf si collés\n- Protégez du froid"
+          ]
+      },
+      {
+          "tag": "intoxication",
+          "patterns": [
+              "Intoxication médicamenteuse",
+              "Ingestion produit toxique",
+              "Empoisonnement que faire",
+              "J'ai avalé un produit dangereux",
+              "Intoxication au monoxyde",
+              "Inhalation produit toxique",
+              "Ingestion eau de javel",
+              "Overdose médicaments",
+              "Intoxication alimentaire grave",
+              "Empoisonnement accidentel",
+              "J'ai bu un produit toxique",
+              "Intoxication enfant",
+              "Ingestion pile bouton",
+              "Produit corrosif avalé",
+              "Intoxication au gaz",
+              "Produit ménager avalé",
+              "Exposition monoxyde carbone",
+              "Inhalation fumées toxiques",
+              "Ingestion médicaments enfant",
+              "Empoisonnement centre antipoison"
+          ],
+          "responses": [
+              "⚡ APPELEZ IMMÉDIATEMENT :\n- Centre Antipoison ou\n- 15 (SAMU)\n\nINFORMATIONS À DONNER :\n1. Produit exact (gardez l'emballage)\n2. Quantité/heure ingestion\n3. Âge et poids\n4. Symptômes\n\nNE PAS :\n- Faire vomir\n- Boire du lait\n- Attendre les symptômes\n\nIMPORTANT : En cas de doute, appelez les secours."
+          ]
+      },
+      {
+        "tag": "maux_de_tete",
+        "patterns": [
+            "J'ai mal à la tête",
+            "Ma tête me fait souffrir",
+            "J'ai une migraine",
+            "J'ai mal au crâne depuis ce matin",
+            "Mal de tête qui ne passe pas",
+            "Je ne supporte pas la lumière tellement j'ai mal à la tête",
+            "Maux de tête fréquents",
+            "Douleur qui pulse dans la tête",
+            "Migraine avec nausées",
+            "Mal de tête côté droit",
+            "Céphalées chroniques",
+            "Maux de tête et fatigue",
+            "Migraine ophtalmique",
+            "Je vois des éclairs lumineux avec mon mal de tête",
+            "Mal de tête en se réveillant"
+        ],
+        "responses": [
+            "Analyse de vos maux de tête :\n\nCAUSES POSSIBLES:\n- Migraine (si sensibilité lumière/bruit)\n- Céphalée de tension (si stress/fatigue)\n- Sinusite (si nez bouché/douleur front)\n\nSOULAGEMENT IMMÉDIAT:\n1. Repos dans pièce calme et sombre\n2. Hydratation suffisante\n3. Paracétamol si besoin\n\nCONSULTEZ SI:\n- Douleur brutale intense\n- Vomissements\n- Fièvre associée\n- Maux de tête > 72h"
+        ]
+    },
+    {
+        "tag": "douleurs_dos",
+        "patterns": [
+            "J'ai mal au dos",
+            "Douleur lombaire",
+            "Mon dos me fait souffrir",
+            "Mal de dos qui ne passe pas",
+            "Douleur dans le bas du dos",
+            "Sciatique",
+            "Dorsalgie",
+            "Mal au dos en me levant",
+            "Douleur dos qui irradie dans la jambe",
+            "Blocage du dos",
+            "Lumbago",
+            "Mal de dos après effort",
+            "Douleur dorsale chronique",
+            "Point douloureux dans le dos",
+            "Dos bloqué"
+        ],
+        "responses": [
+            "Analyse de votre douleur dorsale :\n\nCAUSES FRÉQUENTES:\n- Effort/mauvaise posture\n- Contracture musculaire\n- Hernie discale possible\n\nSOULAGEMENT:\n1. Évitez positions douloureuses\n2. Chaleur locale\n3. Anti-inflammatoires si prescrits\n\nCONSULTEZ SI:\n- Douleur irradie jambe\n- Perte de force\n- Troubles urinaires\n- Douleur > 1 semaine"
+        ]
+    },
+    {
+        "tag": "douleurs_abdominales",
+        "patterns": [
+            "J'ai mal au ventre",
+            "Douleurs abdominales",
+            "Mon ventre me fait mal",
+            "Crampes abdominales",
+            "Mal au ventre et nausées",
+            "Douleur estomac",
+            "Ventre gonflé et douloureux",
+            "Point douloureux abdomen",
+            "Douleur côté droit du ventre",
+            "Brûlures estomac",
+            "Coliques abdominales",
+            "Mal au ventre après repas",
+            "Douleur abdominale chronique",
+            "Spasmes intestinaux",
+            "Ventre ballonné douloureux"
+        ],
+        "responses": [
+            "Analyse de vos douleurs abdominales :\n\nCAUSES POSSIBLES:\n- Gastro-entérite\n- Constipation\n- Reflux gastrique\n- Colite/syndrome intestin irritable\n\nRECOMMANDATIONS:\n1. Diète légère\n2. Hydratation régulière\n3. Évitez aliments irritants\n\nCONSULTEZ SI:\n- Douleur intense localisée\n- Fièvre élevée\n- Vomissements persistants\n- Sang dans selles"
+        ]
+    },
+    {
+        "tag": "fievre",
+        "patterns": [
+            "J'ai de la fièvre",
+            "Ma température est élevée",
+            "Je fais de la température",
+            "Fièvre qui ne baisse pas",
+            "38.5 de fièvre",
+            "Fièvre et courbatures",
+            "Température élevée",
+            "Fièvre depuis 3 jours",
+            "Je suis fiévreux",
+            "Fièvre et maux de tête",
+            "40 de fièvre",
+            "Poussée de fièvre",
+            "Fièvre chez adulte",
+            "Forte fièvre que faire",
+            "Fièvre persistante"
+        ],
+        "responses": [
+            "Analyse de votre fièvre :\n\nÀ SAVOIR:\n- Fièvre = T° > 38°C\n- Mécanisme de défense normal\n\nSOULAGEMENT:\n1. Hydratation importante\n2. Paracétamol si T° > 38.5°C\n3. Se découvrir si besoin\n\nCONSULTEZ SI:\n- Fièvre > 40°C\n- Durée > 3 jours\n- Raideur nuque\n- Difficultés respiratoires"
+        ]
+    },
+    {
+        "tag": "fatigue",
+        "patterns": [
+            "Je suis très fatigué",
+            "Fatigue chronique",
+            "Je me sens épuisé",
+            "Fatigue permanente",
+            "Je n'ai plus d'énergie",
+            "Grosse fatigue",
+            "Fatigue inexpliquée",
+            "Je dors beaucoup mais reste fatigué",
+            "Épuisement constant",
+            "Fatigue intense",
+            "Manque d'énergie",
+            "Asthénie",
+            "Fatigue qui ne passe pas",
+            "Je suis toujours fatigué",
+            "Fatigue anormale"
+        ],
+        "responses": [
+            "Analyse de votre fatigue :\n\nCAUSES FRÉQUENTES:\n- Manque de sommeil\n- Stress/surmenage\n- Carence en fer/vitamines\n- Maladie virale\n\nRECOMMANDATIONS:\n1. Régularisez cycle sommeil\n2. Activité physique modérée\n3. Alimentation équilibrée\n\nCONSULTEZ SI:\n- Fatigue > 3 semaines\n- Perte de poids\n- Troubles du sommeil\n- Déprime associée"
+        ]
+    },
+    {
+        "tag": "problemes_respiratoires",
+        "patterns": [
+            "J'ai du mal à respirer",
+            "Essoufflement",
+            "Difficultés à respirer",
+            "Je m'essouffle facilement",
+            "Sensation d'étouffement",
+            "Respiration sifflante",
+            "Gêne respiratoire",
+            "Manque de souffle",
+            "Oppression thoracique",
+            "Respiration difficile",
+            "Dyspnée",
+            "Essoufflement au moindre effort",
+            "Toux et essoufflement",
+            "Difficulté à reprendre mon souffle",
+            "Respiration rapide"
+        ],
+        "responses": [
+            "Analyse de vos difficultés respiratoires :\n\nCAUSES POSSIBLES:\n- Asthme\n- Anxiété\n- Infection respiratoire\n- Effort physique\n\nPREMIERS GESTES:\n1. Position assise confortable\n2. Respirez calmement\n3. Air frais/aérez\n\nCONSULTEZ SI:\n- Difficulté sévère\n- Au repos\n- Avec douleur thoracique\n- Lèvres bleues"
+        ]
+    },
+    {
+        "tag": "troubles_digestifs",
+        "patterns": [
+            "J'ai la nausée",
+            "Je vomis",
+            "J'ai la diarrhée",
+            "Problèmes de digestion",
+            "Ballonnements",
+            "Constipation",
+            "Troubles du transit",
+            "Brûlures d'estomac",
+            "Digestion difficile",
+            "Nausées et vomissements",
+            "Mal digérer",
+            "Estomac dérangé",
+            "Transit perturbé",
+            "Problèmes intestinaux",
+            "Vomissements fréquents"
+        ],
+        "responses": [
+            "Analyse de vos troubles digestifs :\n\nCAUSES FRÉQUENTES:\n- Gastro-entérite\n- Intoxication alimentaire\n- Stress\n- Mauvaise alimentation\n\nRECOMMANDATIONS:\n1. Diète légère 24-48h\n2. Hydratation régulière\n3. Réalimentation progressive\n\nCONSULTEZ SI:\n- Déshydratation\n- Sang dans selles\n- Forte fièvre\n- Douleur intense"
+        ]
+    },
+    {
+        "tag": "douleurs_articulaires",
+        "patterns": [
+            "J'ai mal aux articulations",
+            "Douleurs dans les genoux",
+            "Mal aux hanches",
+            "Articulations douloureuses",
+            "Raideur articulaire",
+            "Arthrose",
+            "Douleurs rhumatismales",
+            "Articulations qui craquent",
+            "Gonflement articulation",
+            "Mal aux épaules",
+            "Douleur aux poignets",
+            "Rhumatismes",
+            "Articulations enflées",
+            "Douleur articulaire chronique",
+            "Inflammation articulation"
+        ],
+        "responses": [
+            "Analyse de vos douleurs articulaires :\n\nCAUSES POSSIBLES:\n- Arthrose\n- Inflammation\n- Surcharge/effort\n- Rhumatismes\n\nSOULAGEMENT:\n1. Repos articulaire\n2. Application chaud/froid\n3. Anti-inflammatoires si prescrits\n\nCONSULTEZ SI:\n- Gonflement important\n- Rougeur/chaleur\n- Impotence fonctionnelle\n- Douleur > 2 semaines"
+        ]
+    },
+    {
+        "tag": "migraines_chroniques",
+        "patterns": [
+            "J'ai souvent des migraines",
+            "Maux de tête fréquents",
+            "Ma tête me fait souvent mal",
+            "Migraines récurrentes",
+            "Je fais des migraines régulièrement",
+            "Migraine mensuelle",
+            "Mal de tête avant règles",
+            "Migraine et cycle hormonal",
+            "Migraine et règles",
+            "Migraine qui revient",
+            "Mal de tête au réveil",
+            "Migraine stress",
+            "Migraines fréquentes que faire",
+            "Maux de tête quotidiens",
+            "Migraines chroniques solutions"
+        ],
+        "responses": [
+            "Analyse de vos migraines chroniques :\n\nDÉCLENCHEURS FRÉQUENTS :\n- Stress/anxiété\n- Fatigue/manque sommeil\n- Changements hormonaux\n- Certains aliments\n\nRECOMMANDATIONS :\n1. Tenir un journal des migraines\n- Notez fréquence/intensité\n- Identifiez déclencheurs\n- Suivez efficacité traitements\n\nPRÉVENTION :\n- Sommeil régulier\n- Repas à heures fixes\n- Gestion du stress\n- Bonne hydratation\n\nCONSULTEZ SI :\n- Plus de 4 crises/mois\n- Impact vie quotidienne\n- Efficacité limitée antidouleurs"
+        ]
+    },
+    {
+        "tag": "problemes_digestifs_chroniques",
+        "patterns": [
+            "Ballonnements fréquents",
+            "Je digère mal",
+            "Constipation chronique",
+            "Transit lent",
+            "Ventre gonflé après repas",
+            "Gaz intestinaux",
+            "Digestion difficile",
+            "Reflux gastrique fréquent",
+            "Brûlures d'estomac régulières",
+            "Problèmes de transit",
+            "Estomac sensible",
+            "Inconfort digestif constant",
+            "Remontées acides fréquentes",
+            "Constipation régulière",
+            "Troubles digestifs quotidiens"
+        ],
+        "responses": [
+            "Analyse de vos troubles digestifs chroniques :\n\nCAUSES POSSIBLES :\n- Alimentation inadaptée\n- Stress/anxiété\n- Sédentarité\n- Intolérances alimentaires\n\nRECOMMANDATIONS :\n1. Habitudes alimentaires\n- Manger lentement\n- Repas réguliers\n- Éviter aliments déclencheurs\n\n2. Mode de vie\n- Activité physique régulière\n- Bonne hydratation\n- Gestion du stress\n\nCONSULTEZ SI :\n- Perte de poids inexpliquée\n- Douleurs intenses\n- Sang dans selles"
+        ]
+    },
+    {
+        "tag": "douleurs_musculaires_chroniques",
+        "patterns": [
+            "Courbatures fréquentes",
+            "Douleurs musculaires constantes",
+            "Muscles endoloris",
+            "Tensions musculaires chroniques",
+            "Mal aux muscles régulièrement",
+            "Douleurs après sport",
+            "Muscles souvent tendus",
+            "Points de tension musculaire",
+            "Contractures fréquentes",
+            "Douleurs musculaires récurrentes",
+            "Tension nuque chronique",
+            "Muscles douloureux sans effort",
+            "Douleurs musculaires inexpliquées",
+            "Tension épaules permanente",
+            "Muscles raides quotidiennement"
+        ],
+        "responses": [
+            "Analyse de vos douleurs musculaires chroniques :\n\nCAUSES FRÉQUENTES :\n- Mauvaises postures\n- Stress/tension\n- Surmenage physique\n- Manque d'étirements\n\nSOULAGEMENT :\n1. Mesures immédiates\n- Chaleur locale\n- Automassages doux\n- Étirements légers\n\n2. Prévention\n- Activité physique adaptée\n- Posture correcte\n- Pauses régulières\n\nCONSULTEZ SI :\n- Douleur handicapante\n- Pas d'amélioration\n- Perte de force"
+        ]
+    },
+    {
+        "tag": "fatigue_chronique",
+        "patterns": [
+            "Toujours fatigué",
+            "Fatigue permanente",
+            "Épuisement constant",
+            "Manque d'énergie chronique",
+            "Fatigue inexpliquée",
+            "Je dors bien mais suis fatigué",
+            "Fatigue qui ne part pas",
+            "Pas d'énergie",
+            "Fatigue depuis des mois",
+            "Épuisement inexpliqué",
+            "Fatigue malgré le repos",
+            "Asthénie chronique",
+            "Baisse d'énergie constante",
+            "Fatigue persistante",
+            "Jamais en forme"
+        ],
+        "responses": [
+            "Analyse de votre fatigue chronique :\n\nCAUSES POSSIBLES :\n- Manque de sommeil\n- Stress chronique\n- Carences (fer, vitamines)\n- Mode de vie inadapté\n\nÉVALUATION :\n1. Analysez votre sommeil\n- Heures de coucher\n- Qualité du sommeil\n- Réveils nocturnes\n\n2. Mode de vie\n- Alimentation équilibrée\n- Activité physique adaptée\n- Gestion du stress\n\nCONSULTEZ SI :\n- Fatigue > 6 mois\n- Impact vie quotidienne\n- Autres symptômes associés"
+        ]
+    },
+    {
+        "tag": "problemes_peau_chroniques",
+        "patterns": [
+            "Acné persistante",
+            "Peau qui gratte souvent",
+            "Eczéma chronique",
+            "Démangeaisons fréquentes",
+            "Peau très sèche",
+            "Boutons réguliers",
+            "Problèmes de peau récurrents",
+            "Psoriasis",
+            "Peau sensible",
+            "Irritations cutanées fréquentes",
+            "Rougeurs persistantes",
+            "Problèmes de peau visage",
+            "Peau réactive",
+            "Dermatite chronique",
+            "Peau qui pèle souvent"
+        ],
+        "responses": [
+            "Analyse de vos problèmes de peau chroniques :\n\nFACTEURS AGGRAVANTS :\n- Stress\n- Alimentation\n- Produits inadaptés\n- Environnement\n\nSOINS QUOTIDIENS :\n1. Hygiène\n- Nettoyage doux\n- Hydratation adaptée\n- Protection solaire\n\n2. Mode de vie\n- Alimentation équilibrée\n- Bonne hydratation\n- Éviter déclencheurs\n\nCONSULTEZ SI :\n- Aggravation\n- Lésions qui s'étendent\n- Démangeaisons intenses"
+        ]
+    },
+    {
+        "tag": "douleurs_articulaires_chroniques",
+        "patterns": [
+            "Articulations douloureuses",
+            "Douleurs aux genoux chroniques",
+            "Arthrose",
+            "Mal aux articulations",
+            "Raideur articulaire matinale",
+            "Douleurs aux hanches chroniques",
+            "Articulations qui craquent",
+            "Douleurs rhumatismales",
+            "Raideurs articulaires",
+            "Gonflements articulaires",
+            "Douleurs articulations régulières",
+            "Gêne articulaire permanente",
+            "Arthrite chronique",
+            "Rhumatismes quotidiens",
+            "Douleurs articulaires au réveil"
+        ],
+        "responses": [
+            "Analyse de vos douleurs articulaires chroniques :\n\nCAUSES FRÉQUENTES :\n- Arthrose\n- Rhumatismes\n- Usure naturelle\n- Surcharge pondérale\n\nRECOMMANDATIONS :\n1. Gestion quotidienne\n- Exercices adaptés\n- Protection articulations\n- Maintien poids santé\n\n2. Soulagement\n- Chaleur locale\n- Mouvements doux\n- Repos si crise\n\nCONSULTEZ SI :\n- Douleur intense\n- Déformations\n- Rougeur/chaleur"
+        ]
+    },
+    {
+        "tag": "troubles_sommeil_chroniques",
+        "patterns": [
+            "Insomnie chronique",
+            "Difficultés à dormir",
+            "Je dors mal",
+            "Réveils nocturnes fréquents",
+            "Sommeil non réparateur",
+            "Problèmes d'endormissement",
+            "Troubles du sommeil",
+            "Je me réveille trop tôt",
+            "Sommeil agité",
+            "Insomnies régulières",
+            "Mauvaise qualité sommeil",
+            "Difficultés à rester endormi",
+            "Sommeil perturbé",
+            "Réveils précoces",
+            "Manque de sommeil chronique"
+        ],
+        "responses": [
+            "Analyse de vos troubles du sommeil chroniques :\n\nCAUSES POSSIBLES :\n- Stress/anxiété\n- Mauvaise hygiène sommeil\n- Facteurs environnementaux\n- Habitudes inadaptées\n\nRECOMMANDATIONS :\n1. Hygiène de sommeil\n- Horaires réguliers\n- Routine relaxante\n- Chambre adaptée\n\n2. Mode de vie\n- Éviter excitants\n- Activité physique (pas tard)\n- Gestion du stress\n\nCONSULTEZ SI :\n- Impact vie quotidienne\n- Somnolence diurne\n- Durée > 3 mois"
+        ]
+    },
+    {
+        "tag": "allergies_chroniques",
+        "patterns": [
+            "Allergies saisonnières",
+            "Rhume des foins",
+            "Nez qui coule souvent",
+            "Éternuements fréquents",
+            "Yeux qui piquent allergies",
+            "Allergies respiratoires",
+            "Allergies chroniques",
+            "Nez bouché allergies",
+            "Symptômes allergiques réguliers",
+            "Allergies printemps",
+            "Rhinite allergique",
+            "Allergies poussière",
+            "Toux allergique",
+            "Congestion nasale chronique",
+            "Allergies persistantes"
+        ],
+        "responses": [
+            "Analyse de vos allergies chroniques :\n\nDÉCLENCHEURS COURANTS :\n- Pollens\n- Acariens\n- Poussière\n- Animaux\n\nGESTION QUOTIDIENNE :\n1. Environnement\n- Aération régulière\n- Ménage fréquent\n- Éviter allergènes\n\n2. Soulagement\n- Lavage nasal\n- Antihistaminiques si prescrits\n- Protection extérieure\n\nCONSULTEZ SI :\n- Symptômes sévères\n- Gêne respiratoire\n- Impact qualité vie"
+        ]
+    },
+    {
+        "tag": "entorse_cheville",
+        "patterns": [
+            "Je me suis tordu la cheville",
+            "Entorse à la cheville",
+            "Cheville qui a tourné",
+            "Ma cheville est gonflée",
+            "J'ai mal quand je marche sur ma cheville",
+            "Entorse que faire",
+            "Cheville douloureuse après faux mouvement",
+            "Gonflement cheville après sport",
+            "Cheville instable après torsion",
+            "Foulure cheville",
+            "Cheville bleue après torsion",
+            "Entorse ligament cheville",
+            "Douleur cheville après chute",
+            "Je boite après m'être tordu la cheville",
+            "Bleu à la cheville"
+        ],
+        "responses": [
+            "Analyse de votre entorse de cheville :\n\nPREMIERS SOINS (RICE) :\n- Rest (Repos): arrêt activité\n- Ice (Glace): 20min/2-3h\n- Compression: bandage élastique\n- Élévation: au-dessus du cœur\n\nNE PAS FAIRE :\n- Marcher si très douloureux\n- Massage\n- Chaleur les 48h\n\nCONSULTEZ SI :\n- Impossibilité d'appui\n- Gonflement important\n- Douleur intense\n- Instabilité majeure"
+        ]
+    },
+    {
+        "tag": "coupure_légère",
+        "patterns": [
+            "Je me suis coupé",
+            "Petite coupure que faire",
+            "Coupure au doigt",
+            "Plaie superficielle",
+            "Coupure qui saigne un peu",
+            "Comment soigner une coupure",
+            "Coupure au couteau",
+            "Petite plaie",
+            "Entaille légère",
+            "Coupure nette",
+            "Blessure superficielle",
+            "Soin petite coupure",
+            "Coupure avec objet tranchant",
+            "Désinfection coupure",
+            "Pansement pour coupure"
+        ],
+        "responses": [
+            "Traitement d'une coupure légère :\n\nSOINS IMMÉDIATS :\n1. Lavage soigneux (eau+savon)\n2. Désinfectant non coloré\n3. Pansement stérile\n\nSURVEILLANCE :\n- Saignement\n- Signes infection\n- Cicatrisation\n\nCONSULTEZ SI :\n- Plaie profonde/large\n- Saignement persistant\n- Signes infection\n- Plaie visage/articulation\n\nRAPPEL :\nVérifiez vaccination tétanos"
+        ]
+    },
+    {
+        "tag": "contusion_musculaire",
+        "patterns": [
+            "Je me suis pris un coup",
+            "Bleu après choc",
+            "Hématome après impact",
+            "Contusion musculaire",
+            "Muscle douloureux après coup",
+            "Bleu qui gonfle",
+            "Impact direct muscle",
+            "Gros hématome",
+            "Bosse après coup",
+            "Zone douloureuse après choc",
+            "Muscle contusionné",
+            "Bleu important",
+            "Contusion après chute",
+            "Muscle gonflé après impact",
+            "Impact direct cuisse"
+        ],
+        "responses": [
+            "Traitement d'une contusion musculaire :\n\nPREMIERS SOINS :\n1. Protocole RICE (24-48h)\n- Repos de la zone\n- Ice (glace)\n- Compression légère\n- Élévation si possible\n\nAPRÈS 48H :\n- Chaleur possible\n- Mobilisation douce\n- Reprise progressive\n\nCONSULTEZ SI :\n- Douleur intense\n- Gonflement majeur\n- Perte de force\n- Impact près articulation"
+        ]
+    },
+    {
+        "tag": "tendinite",
+        "patterns": [
+            "Douleur au tendon",
+            "Tendinite au poignet",
+            "Inflammation tendon",
+            "Tendinite coude",
+            "Tennis elbow",
+            "Tendinite épaule",
+            "Douleur tendon achille",
+            "Tendinite genou",
+            "Inflammation tendineuse",
+            "Tendinopathie",
+            "Douleur tendineuse chronique",
+            "Tendinite après sport",
+            "Tendon douloureux et gonflé",
+            "Syndrome rotulien",
+            "Tendinite chronique"
+        ],
+        "responses": [
+            "Gestion d'une tendinite :\n\nPHASE AIGUË :\n1. Repos relatif\n2. Glaçage régulier\n3. Anti-inflammatoires si prescrits\n\nPRÉVENTION :\n- Échauffement correct\n- Matériel adapté\n- Gestes appropriés\n- Étirements doux\n\nRÉÉDUCATION :\n- Repos actif\n- Renforcement progressif\n- Reprise graduelle\n\nCONSULTEZ SI :\n- Douleur persistante\n- Perte de force\n- Pas d'amélioration"
+        ]
+    },
+    {
+        "tag": "brulure_legere",
+        "patterns": [
+            "Petite brûlure",
+            "Brûlure superficielle",
+            "Brûlure eau chaude",
+            "Brûlure premier degré",
+            "Peau rouge après brûlure",
+            "Brûlure cuisine",
+            "Coup de soleil",
+            "Brûlure légère que faire",
+            "Peau qui chauffe après brûlure",
+            "Brûlure sans cloque",
+            "Rougeur après brûlure",
+            "Soin brûlure légère",
+            "Brûlure surface limitée",
+            "Brûlure main",
+            "Brûlure doigt"
+        ],
+        "responses": [
+            "Traitement brûlure légère :\n\nPREMIERS SOINS :\n1. Refroidir 15-20min\n- Eau tempérée (15-25°C)\n- Ne pas glacer\n\n2. Après refroidissement\n- Sécher délicatement\n- Crème/gel adapté\n- Protection stérile\n\nNE PAS :\n- Percer les cloques\n- Mettre de coton\n- Appliquer corps gras\n\nCONSULTEZ SI :\n- Cloques importantes\n- Surface > paume main\n- Visage/mains"
+        ]
+    },
+    {
+        "tag": "luxation_doigt",
+        "patterns": [
+            "Doigt déboîté",
+            "Luxation doigt",
+            "Doigt tordu sport",
+            "Doigt qui a tourné",
+            "Articulation doigt déplacée",
+            "Doigt déformé après choc",
+            "Luxation articulation doigt",
+            "Doigt bloqué après choc",
+            "Luxation phalange",
+            "Doigt gonflé et déformé",
+            "Déboîtement doigt",
+            "Doigt luxé basket",
+            "Luxation interphalangienne",
+            "Doigt déformé volley",
+            "Doigt coincé déboîté"
+        ],
+        "responses": [
+            "Gestion luxation doigt :\n\nPREMIERS GESTES :\n1. Immobilisation\n2. Glaçage\n3. NE PAS manipuler seul\n\nTRAITEMENT :\n- Consultation rapide\n- Radio nécessaire\n- Réduction médicale\n\nAPRÈS RÉDUCTION :\n- Repos/immobilisation\n- Glaçage régulier\n- Rééducation douce\n\nCONSULTEZ SI :\n- Toute luxation\n- Déformation\n- Douleur intense"
+        ]
+    },
+    {
+        "tag": "claquage_musculaire",
+        "patterns": [
+            "Claquage mollet",
+            "Déchirure musculaire",
+            "Muscle déchiré sport",
+            "Claquage cuisse",
+            "Douleur vive muscle",
+            "Élancement musculaire brutal",
+            "Déchirure ischio",
+            "Claquage course à pied",
+            "Rupture fibre musculaire",
+            "Muscle étiré brutalement",
+            "Douleur subite muscle",
+            "Claquage football",
+            "Déchirure sport",
+            "Muscle qui lâche effort",
+            "Douleur brutale course"
+        ],
+        "responses": [
+            "Prise en charge claquage :\n\nURGENCE :\n1. Protocole RICE\n- Repos immédiat\n- Ice (glace)\n- Compression\n- Élévation\n\n2. Premiers jours\n- Marche adaptée\n- Anti-inflammatoires si prescrits\n- Soutien/strapping\n\nREPRISE :\n- Progressive\n- Étirements doux\n- Renforcement adapté\n\nCONSULTEZ SI :\n- Douleur intense\n- Gros hématome\n- Impotence totale"
+        ]
+    },
+    {
+        "tag": "ampoule",
+        "patterns": [
+            "Ampoule au pied",
+            "Cloque chaussures",
+            "Phlyctène",
+            "Ampoule qui fait mal",
+            "Cloque après marche",
+            "Ampoule sous le pied",
+            "Cloque au talon",
+            "Ampoule chaussures neuves",
+            "Phlyctène qui fait mal",
+            "Ampoule remplie d'eau",
+            "Cloque douloureuse",
+            "Ampoule qui gêne",
+            "Soigner une ampoule",
+            "Pansement ampoule",
+            "Prévention ampoules"
+        ],
+        "responses": [
+            "Traitement des ampoules :\n\nSI FERMÉE :\n- Ne pas percer\n- Désinfecter autour\n- Pansement hydrocolloïde\n\nSI OUVERTE :\n1. Désinfection\n2. Retirer peau morte\n3. Pansement stérile\n\nPRÉVENTION :\n- Chaussures adaptées\n- Chaussettes techniques\n- Protections zones friction\n\nCONSULTEZ SI :\n- Infection\n- Diabétique\n- Très étendue"
+        ]
+    },
+    {
+        "tag": "diabete_gestion",
+        "patterns": [
+            "Comment gérer mon diabète",
+            "Mon taux de sucre est élevé",
+            "Symptômes hyperglycémie",
+            "Symptômes hypoglycémie",
+            "Je me sens faible, je suis diabétique",
+            "J'ai très soif et je suis diabétique",
+            "Comment mesurer sa glycémie",
+            "Quand prendre sa glycémie",
+            "J'ai oublié mon insuline",
+            "Dose insuline repas",
+            "Que manger quand on est diabétique",
+            "Sport et diabète",
+            "Diabète et alimentation",
+            "Complications diabète",
+            "Mon diabète n'est pas équilibré"
+        ],
+        "responses": [
+            "Gestion du diabète :\n\nSURVEILLANCE QUOTIDIENNE :\n1. Glycémie\n- À jeun : 0,7-1,3 g/L\n- 2h après repas : < 1,8 g/L\n\nSIGNES ALERTE :\nHyperglycémie :\n- Soif intense\n- Urines fréquentes\n- Fatigue\n➜ Contrôler glycémie, ajuster traitement\n\nHypoglycémie :\n- Tremblements\n- Sueurs\n- Faim intense\n➜ Prendre sucre rapide\n\nRECOMMANDATIONS :\n- Alimentation équilibrée\n- Activité physique régulière\n- Surveillance pieds\n- Suivi médical régulier\n\nCONSULTEZ SI :\n- Glycémie > 2,5 g/L\n- Hypoglycémie sévère\n- Plaie pied\n- Troubles vision"
+        ]
+    },
+    {
+        "tag": "hypertension_gestion",
+        "patterns": [
+            "Comment contrôler ma tension",
+            "Tension trop haute que faire",
+            "Gérer son hypertension",
+            "Mesure tension artérielle",
+            "Quand prendre sa tension",
+            "Alimentation hypertension",
+            "Tension élevée symptômes",
+            "Sport et hypertension",
+            "Médicaments tension oubli",
+            "Hypertension et stress",
+            "Mal de tête tension",
+            "Vertiges hypertension",
+            "Régime sans sel hypertension",
+            "Pression artérielle élevée",
+            "Hypertension non contrôlée"
+        ],
+        "responses": [
+            "Gestion de l'hypertension :\n\nVALEURS CIBLES :\n- Optimale : < 120/80\n- Normale : < 140/90\n\nMESURES HYGIÉNO-DIÉTÉTIQUES :\n1. Alimentation\n- Réduire sel\n- Limiter alcool\n- Régime méditerranéen\n\n2. Mode de vie\n- Activité physique régulière\n- Gestion stress\n- Arrêt tabac\n\nSURVEILLANCE :\n- Mesure régulière\n- Carnet de suivi\n- Prise médicaments\n\nCONSULTEZ SI :\n- Tension > 180/120\n- Maux tête violents\n- Troubles vision\n- Douleur thoracique"
+        ]
+    },
+    {
+        "tag": "asthme_gestion",
+        "patterns": [
+            "Comment gérer son asthme",
+            "Crise d'asthme que faire",
+            "Symptômes asthme",
+            "Utilisation ventoline",
+            "Asthme et sport",
+            "Prévenir crise asthme",
+            "Asthme et allergies",
+            "Traitement fond asthme",
+            "Asthme essoufflement",
+            "Respiration sifflante asthme",
+            "Toux asthmatique",
+            "Asthme et pollution",
+            "Asthme effort",
+            "Asthme non contrôlé",
+            "Peak flow mesure"
+        ],
+        "responses": [
+            "Gestion de l'asthme :\n\nSIGNES CRISE :\n- Essoufflement\n- Sifflements\n- Toux\n- Oppression thoracique\n\nACTION IMMÉDIATE :\n1. Rester calme\n2. Position assise\n3. Bronchodilatateur (2 bouffées)\n4. Respiration lente\n\nPRÉVENTION :\n- Éviter déclencheurs\n- Traitement fond régulier\n- Environnement sain\n- Vaccination grippe\n\nCONSULTEZ SI :\n- Crise sévère\n- Ventoline inefficace\n- Essoufflement repos\n- Crises fréquentes"
+        ]
+    },
+    {
+        "tag": "diabete_traitement",
+        "patterns": [
+            "Comment prendre insuline",
+            "Traitement diabète type 2",
+            "Médicaments diabète",
+            "Injection insuline",
+            "Oubli traitement diabète",
+            "Effets secondaires antidiabétiques",
+            "Changer dose insuline",
+            "Metformine effets",
+            "Conservation insuline",
+            "Sites injection insuline",
+            "Traitement oral diabète",
+            "Insuline et repas",
+            "Ajustement dose diabète",
+            "Nouveaux traitements diabète",
+            "Pompe à insuline"
+        ],
+        "responses": [
+            "Gestion traitement diabète :\n\nINSULINE :\n1. Injection\n- Rotation sites\n- Technique correcte\n- Horaires réguliers\n\n2. Conservation\n- Frigo (non entamée)\n- T° ambiante (en cours)\n- Éviter chaleur/gel\n\nTRAITEMENT ORAL :\n- Prises régulières\n- Avec repas si prescrit\n- Ne pas arrêter seul\n\nSURVEILLANCE :\n- Notes glycémies\n- Effets secondaires\n- Adaptation activité\n\nCONSULTEZ SI :\n- Effets indésirables\n- Glycémie déséquilibrée\n- Questions ajustement"
+        ]
+    },
+    {
+        "tag": "hypertension_traitement",
+        "patterns": [
+            "Médicaments tension artérielle",
+            "Traitement hypertension",
+            "Effets secondaires antihypertenseurs",
+            "Oubli médicament tension",
+            "Changer traitement tension",
+            "IEC effets secondaires",
+            "Bêtabloquants tension",
+            "Diurétiques hypertension",
+            "Calcium bloquants",
+            "Arrêt traitement tension",
+            "Adaptation dose tension",
+            "Heure prise médicaments tension",
+            "Suivre traitement tension",
+            "Médicaments tension oubli",
+            "Nouveaux traitements hypertension"
+        ],
+        "responses": [
+            "Gestion traitement hypertension :\n\nPRISE MÉDICAMENTS :\n1. Régularité\n- Horaire fixe\n- Ne pas sauter\n- Prévoir vacances\n\n2. Surveillance\n- Tension régulière\n- Effets secondaires\n- Interactions autres médicaments\n\nEN CAS D'OUBLI :\n- Prise si < 12h\n- Sinon attendre dose suivante\n- Ne pas doubler\n\nCONSULTEZ SI :\n- Effets indésirables\n- Tension déséquilibrée\n- Questions traitement\n\nSUBSTITUTION :\n- Ne pas arrêter seul\n- Avis médical changement"
+        ]
+    },
+    {
+        "tag": "asthme_traitement",
+        "patterns": [
+            "Traitement asthme quotidien",
+            "Comment utiliser inhalateur",
+            "Traitement fond asthme",
+            "Ventoline utilisation",
+            "Corticoïdes inhalés",
+            "Bronchodilatateurs asthme",
+            "Chambre inhalation",
+            "Nettoyage inhalateur",
+            "Dosage médicaments asthme",
+            "Oubli traitement asthme",
+            "Effets secondaires asthme",
+            "Combiner médicaments asthme",
+            "Traitement préventif asthme",
+            "Asthme spray",
+            "Nouveau traitement asthme"
+        ],
+        "responses": [
+            "Gestion traitement asthme :\n\nTRAITEMENT QUOTIDIEN :\n1. Traitement fond\n- Prise régulière\n- Même sans symptômes\n- Technique correcte\n\n2. Bronchodilatateur\n- Si besoin\n- Maximum 8/jour\n- Toujours avoir sur soi\n\nTECHNIQUE INHALATION :\n1. Expirer\n2. Inspirer lentement\n3. Retenir 10 secondes\n4. Expirer doucement\n\nENTRETIEN :\n- Rincer bouche après corticoïdes\n- Nettoyer inhalateurs\n- Vérifier dates péremption\n\nCONSULTEZ SI :\n- Besoin ventoline augmente\n- Effets indésirables\n- Questions technique"
+        ]
+    },
+    {
+        "tag": "anxiete_generale",
+        "patterns": [
+            "Je suis constamment anxieux, je n'arrive plus à gérer mes journées normalement, que faire ?",
+            "J'ai l'impression d'avoir toujours une boule au ventre et des pensées négatives qui tournent en boucle",
+            "Je fais des crises d'angoisse plusieurs fois par semaine, ça m'empêche de sortir de chez moi",
+            "Depuis quelques mois, je stresse pour tout, même pour des choses simples comme aller faire les courses",
+            "Mon anxiété m'empêche de dormir, je passe mes nuits à ruminer et je suis épuisé(e)",
+            "Je suis paralysé(e) par la peur dès que je dois parler en public ou rencontrer de nouvelles personnes",
+            "Comment savoir si mon niveau d'anxiété est normal ou si je devrais consulter un professionnel ?",
+            "J'ai toujours peur qu'il arrive quelque chose de grave à mes proches, ça devient obsessionnel"
+        ],
+        "responses": [
+            "Je comprends à quel point cette anxiété est envahissante. Vous n'êtes pas seul(e) dans cette situation.\n\nPOUR VOUS AIDER MAINTENANT :\n1. Respiration carrée\n- Inspirez 4 secondes\n- Retenez 4 secondes\n- Expirez 4 secondes\n- Attendez 4 secondes\n- Répétez 5 fois\n\n2. Ancrage dans le présent\n- Nommez 5 choses visibles\n- Touchez 4 textures différentes\n- Identifiez 3 sons\n- Notez 2 odeurs\n- Ressentez 1 goût\n\nSTRATÉGIES QUOTIDIENNES :\n- Méditation guidée\n- Exercice physique doux\n- Journal d'anxiété\n- Routines apaisantes\n- Limiter caféine/écrans\n\nAIDE PROFESSIONNELLE :\n- Thérapie (TCC très efficace)\n- Groupes de soutien\n- Psychiatre si nécessaire\n\nVotre anxiété peut diminuer avec le bon soutien. La demande d'aide est un signe de force."
+        ]
+    },
+    {
+        "tag": "crise_panique",
+        "patterns": [
+            "Je sens que je vais mourir quand j'ai une crise de panique, comment faire pour la contrôler ?",
+            "Mes crises de panique sont de plus en plus fréquentes, j'ai peur de sortir de chez moi",
+            "Comment reconnaître les signes avant-coureurs d'une crise de panique ?",
+            "Pendant mes crises, j'ai des palpitations et je n'arrive plus à respirer normalement",
+            "Je fais des crises de panique au travail et j'ai honte, comment les gérer discrètement ?",
+            "Les crises arrivent sans prévenir, je ne sais jamais quand ça va me tomber dessus",
+            "J'ai peur de refaire une crise en conduisant, je n'ose plus prendre ma voiture",
+            "Mes crises de panique durent parfois des heures, est-ce normal ?"
+        ],
+        "responses": [
+            "Les crises de panique sont terrifiantes mais non dangereuses. Voici comment les gérer :\n\nPENDANT LA CRISE :\n1. Rappels importants\n- Vous ne mourrez pas\n- La crise va passer\n- Les symptômes sont de l'anxiété\n\n2. Techniques immédiates\n- Respiration par le ventre\n- Comptez à rebours de 100\n- Décrivez objets autour de vous\n- Serrez une glace/objet froid\n\nPRÉVENTION :\n- Identifiez déclencheurs\n- Plan d'action personnalisé\n- Techniques de relaxation\n- Évitez l'évitement\n\nSOUTIEN PROFESSIONNEL :\n- TCC spécifique\n- Exposition progressive\n- Médication si nécessaire\n\nChaque crise gérée est une victoire. Vous devenez plus fort(e) à chaque fois."
+        ]
+    },
+    {
+        "tag": "depression",
+        "patterns": [
+            "Je n'arrive plus à trouver de sens à ma vie, tout me semble vide et sans intérêt",
+            "Je me sens comme mort(e) à l'intérieur, plus rien ne me fait plaisir depuis des mois",
+            "Je dors tout le temps mais je suis toujours épuisé(e), est-ce la dépression ?",
+            "J'ai des pensées suicidaires qui reviennent souvent, je ne sais plus quoi faire",
+            "Comment dire à mes proches que je suis en dépression ? J'ai peur qu'ils ne comprennent pas",
+            "Je n'arrive même plus à faire les tâches basiques comme me laver ou manger",
+            "La dépression m'isole complètement, je ne réponds plus aux messages ni aux appels",
+            "Je me déteste et je pense que tout est de ma faute, comment sortir de ces pensées ?"
+        ],
+        "responses": [
+            "Votre souffrance est réelle et vous méritez de l'aide. La dépression n'est pas une faiblesse.\n\n⚠️ SI PENSÉES SUICIDAIRES :\nAppelez le 3114 (24/7, gratuit)\nNe restez pas seul(e)\n\nPETITS PAS QUOTIDIENS :\n1. Besoins de base\n- Se lever à heure fixe\n- Manger un peu\n- Hygiène minimum\n- Lumière naturelle\n\n2. Actions progressives\n- Tâches en mini-étapes\n- Un contact social/jour\n- Petite marche\n- Activité agréable\n\nAIDE PROFESSIONNELLE :\n- Médecin traitant\n- Psychiatre\n- Psychologue\n- Groupes de soutien\n\nLa dépression se soigne. Le premier pas est le plus dur mais le plus important."
+        ]
+    },
+    {
+        "tag": "trauma_complexe",
+        "patterns": [
+            "J'ai vécu plusieurs traumatismes dans mon enfance et ça impacte encore ma vie d'adulte",
+            "Je me sens déconnecté(e) de mes émotions et de mon corps depuis mes traumatismes",
+            "J'ai des flashbacks et des cauchemars de différents événements traumatiques",
+            "Je n'arrive pas à faire confiance aux autres à cause de mes traumatismes passés",
+            "Comment guérir de multiples traumatismes qui s'accumulent depuis des années ?",
+            "Mes traumatismes affectent toutes mes relations, je repousse tout le monde",
+            "Je me sens différent(e) des autres à cause de mon passé traumatique",
+            "Les souvenirs traumatiques reviennent sans prévenir et me paralysent"
+        ],
+        "responses": [
+            "Le trauma complexe est une réponse normale à des expériences anormales. Votre survie montre votre force.\n\nCOMPRENDRE LE TRAUMA :\n1. Réactions normales\n- Flashbacks = mémoire qui guérit\n- Dissociation = protection\n- Méfiance = adaptation passée\n\n2. Chemin de guérison\n- À votre rythme\n- Par étapes\n- Avec soutien\n\nOUTILS DE STABILISATION :\n- Techniques d'ancrage\n- Zone de confort\n- Ressources positives\n- Sécurité intérieure\n\nSOINS SPÉCIALISÉS :\n- Thérapie trauma (EMDR/ICV)\n- Approche corps-esprit\n- Groupes survivants\n\nVous méritez de guérir. Le trauma ne vous définit pas."
+        ]
+    },
+    {
+        "tag": "dependance_affective",
+        "patterns": [
+            "J'ai toujours besoin d'être en couple, je ne supporte pas la solitude",
+            "Je sacrifie tout pour ma relation, même mes amis et ma famille",
+            "J'ai peur en permanence que mon/ma partenaire me quitte, ça devient obsessionnel",
+            "Je reste dans des relations toxiques par peur d'être seul(e)",
+            "Je perds mon identité dans mes relations amoureuses",
+            "Comment arrêter d'être dépendant(e) affectivement ?",
+            "Je ne sais pas qui je suis quand je ne suis pas en couple",
+            "Ma jalousie excessive détruit mes relations, je deviens étouffant(e)"
+        ],
+        "responses": [
+            "La dépendance affective est douloureuse mais peut se soigner. Vous pouvez réapprendre à vous aimer.\n\nCOMPRENDRE LE SCHÉMA :\n1. Origines possibles\n- Attachement précoce\n- Manque d'estime de soi\n- Peurs d'abandon\n\n2. Cycle dépendant\n- Peur solitude\n- Sacrifice de soi\n- Perte d'identité\n\nCHEMIN VERS L'AUTONOMIE :\n- Retrouver ses valeurs\n- Développer intérêts personnels\n- Créer cercle social\n- Apprendre limites saines\n\nSOUTIEN THÉRAPEUTIQUE :\n- Thérapie individuelle\n- Groupes codépendants\n- Travail sur l'estime\n\nVous pouvez construire une relation saine avec vous-même."
+        ]
+    },
+    {
+        "tag": "epuisement_emotionnel",
+        "patterns": [
+            "Je me sens complètement vidé(e) émotionnellement, je n'ai plus d'énergie pour rien",
+            "Je ne ressens plus rien, comme si j'étais anesthésié(e) émotionnellement",
+            "Je suis fatigué(e) d'être toujours là pour les autres sans recevoir en retour",
+            "Comment recharger ses batteries émotionnelles quand on est à plat ?",
+            "Je n'arrive plus à gérer mes émotions, tout me submerge ou rien ne m'atteint",
+            "L'empathie m'épuise, je n'arrive plus à prendre soin des autres",
+            "Je me sens submergé(e) par les émotions des autres",
+            "J'ai l'impression d'être une éponge émotionnelle, ça m'épuise"
+        ],
+        "responses": [
+            "L'épuisement émotionnel est un signal d'alarme de votre psyché. Il est temps de vous recharger.\n\nRECONNAÎTRE LES SIGNES :\n1. Symptômes\n- Fatigue profonde\n- Détachement émotionnel\n- Irritabilité\n- Perte de motivation\n\n2. Causes fréquentes\n- Surcharge empathique\n- Don de soi excessif\n- Frontières floues\n\nRECHARGE ÉMOTIONNELLE :\n- Pauses régulières\n- Nature/créativité\n- Limites saines\n- Auto-compassion\n\nSOINS PERSONNELS :\n- Thérapie de soutien\n- Techniques énergétiques\n- Groupes de partage\n\nVotre sensibilité est une force, apprenez à la protéger."
+        ]
+    },
+    {
+        "tag": "agoraphobie",
+        "patterns": [
+            "J'ai peur de sortir de chez moi, même pour faire des courses basiques",
+            "Je panique quand je suis dans des endroits bondés ou dont je ne peux pas m'échapper facilement",
+            "Ma phobie des espaces publics s'aggrave, je deviens prisonnier(ère) de ma maison",
+            "Je ne peux plus prendre les transports en commun à cause de mes crises d'angoisse",
+            "Comment surmonter la peur des lieux publics et retrouver une vie normale ?",
+            "Je calcule toujours où sont les sorties et les toilettes quand je sors",
+            "L'agoraphobie m'empêche de travailler et de voir mes amis",
+            "Je ne peux plus aller au cinéma ou au restaurant, j'ai peur de paniquer"
+        ],
+        "responses": [
+            "L'agoraphobie est très limitante mais elle peut être surmontée progressivement.\n\nCOMPRENDRE LA PEUR :\n1. Mécanisme\n- Peur de la panique\n- Évitement protecteur\n- Cercle vicieux\n\n2. Exposition graduelle\n- Très petits pas\n- Zones de confort\n- Progression personnelle\n\nOUTILS PRATIQUES :\n- Techniques respiration\n- Ancrage corporel\n- Visualisation positive\n- Plan sécurité\n\nSOUTIEN PROFESSIONNEL :\n- TCC spécialisée\n- Exposition accompagnée\n- Médication possible\n\nChaque petit pas hors de sa zone compte. Vous n'êtes pas seul(e)."
+        ]
+    },
+    {
+        "tag": "allergies_saisonnieres",
+        "patterns": [
+            "Comment savoir si j'ai une allergie au pollen ou juste un rhume ?",
+            "Mes allergies sont terribles au printemps, que puis-je faire pour mieux respirer ?",
+            "J'éternue sans arrêt et mes yeux piquent quand je sors, est-ce une allergie saisonnière ?",
+            "Quels sont les meilleurs traitements naturels pour les allergies au pollen ?",
+            "Je commence à avoir le nez qui coule et les yeux qui grattent à chaque printemps, est-ce le rhume des foins ?",
+            "Comment gérer ses allergies saisonnières au quotidien ?",
+            "Mes allergies empirent chaque année, est-ce normal ?",
+            "Je fais de l'asthme et mes allergies l'aggravent au printemps, que faire ?"
+        ],
+        "responses": [
+            "Analyse de vos allergies saisonnières :\n\nSYMPTÔMES TYPIQUES :\n- Nez qui coule/bouché\n- Yeux rouges et qui piquent\n- Éternuements fréquents\n- Fatigue possible\n\nSOLUTIONS QUOTIDIENNES :\n1. Prévention\n- Suivre bulletins pollens\n- Sortir tôt matin/soirée\n- Porter lunettes/masque\n- Laver cheveux soir\n\n2. Environnement\n- Fermer fenêtres pics pollens\n- Laver nez eau salée\n- Changer vêtements retour\n- Purificateur air\n\nTRAITEMENTS :\n- Antihistaminiques\n- Sprays nasaux\n- Collyre\n- Désensibilisation possible\n\nCONSULTEZ SI :\n- Symptômes sévères\n- Impact qualité vie\n- Asthme associé"
+        ]
+    },
+    {
+        "tag": "allergies_alimentaires",
+        "patterns": [
+            "Je pense être allergique aux fruits de mer, quels sont les symptômes à surveiller ?",
+            "Comment savoir si j'ai une intolérance ou une vraie allergie alimentaire ?",
+            "J'ai eu des plaques rouges après avoir mangé des arachides, dois-je m'inquiéter ?",
+            "Quels sont les aliments qui provoquent le plus d'allergies ?",
+            "Comment gérer une allergie alimentaire au quotidien ?",
+            "Je dois faire un test d'allergie alimentaire, comment ça se passe ?",
+            "Mon enfant a une allergie alimentaire, comment gérer la cantine ?",
+            "Comment lire les étiquettes quand on a une allergie alimentaire ?"
+        ],
+        "responses": [
+            "Gestion des allergies alimentaires :\n\nSYMPTÔMES D'ALLERGIE :\n1. Légers\n- Démangeaisons\n- Urticaire\n- Nausées\n\n2. Graves (urgence)\n- Gonflement gorge\n- Difficultés respiratoires\n- Malaise\n\nPRÉVENTION :\n- Tests allergologiques\n- Lecture étiquettes\n- Informer entourage\n- Carte allergie\n\nPRÉCAUTIONS :\n- Éviter contaminations\n- Questions restaurants\n- Trousse urgence\n- Plan d'action\n\nURGENCE SI :\n- Gonflement rapide\n- Difficultés respiratoires\n- Malaise\n➜ SAMU (15)"
+        ]
+    },
+    {
+        "tag": "allergies_cutanees",
+        "patterns": [
+            "J'ai des plaques rouges qui démangent après avoir utilisé une nouvelle crème",
+            "Comment identifier ce qui provoque mon urticaire ?",
+            "Ma peau réagit à certains tissus, comment savoir si c'est une allergie ?",
+            "J'ai des démangeaisons et rougeurs inexpliquées, que faire ?",
+            "Allergie au nickel, comment gérer au quotidien ?",
+            "Je fais des réactions aux produits cosmétiques, comment les éviter ?",
+            "Comment soigner naturellement une allergie cutanée ?",
+            "Mes allergies cutanées empirent avec le stress, est-ce normal ?"
+        ],
+        "responses": [
+            "Gestion des allergies cutanées :\n\nIDENTIFIER LA CAUSE :\n- Journal des réactions\n- Noter produits utilisés\n- Observer déclencheurs\n- Tests allergologiques\n\nSOULAGEMENT IMMÉDIAT :\n1. Peau\n- Rincer eau fraîche\n- Crème apaisante\n- Vêtements amples\n\n2. Environnement\n- Éviter grattage\n- Air frais\n- Hygiène douce\n\nPRÉVENTION :\n- Produits hypoallergéniques\n- Tests nouveaux produits\n- Hydratation régulière\n\nCONSULTEZ SI :\n- Réactions sévères\n- Persistance > 1 semaine\n- Extension rapide"
+        ]
+    },
+    {
+        "tag": "allergies_medicaments",
+        "patterns": [
+            "Comment savoir si je suis allergique à un médicament ?",
+            "J'ai fait une réaction à un antibiotique, que dois-je faire ?",
+            "Quels sont les signes d'allergie aux médicaments ?",
+            "Je dois prendre un nouveau médicament mais j'ai peur d'être allergique",
+            "Allergie à la pénicilline, quelles alternatives ?",
+            "J'ai eu des boutons après avoir pris un médicament, est-ce grave ?",
+            "Comment éviter les allergies médicamenteuses ?",
+            "Que faire en cas de réaction allergique à un médicament ?"
+        ],
+        "responses": [
+            "Allergies médicamenteuses :\n\nSIGNES D'ALERTE :\n1. Réactions immédiates\n- Éruptions cutanées\n- Démangeaisons\n- Gonflement\n- Difficultés respiratoires\n\n2. Réactions retardées\n- Éruptions après jours\n- Fièvre possible\n- Douleurs articulaires\n\nACTIONS :\n- Arrêter médicament\n- Noter nom exact\n- Consulter urgence si grave\n- Informer médecin\n\nPRÉVENTION :\n- Carte allergie\n- Informer professionnels\n- Tests si nécessaire\n\nURGENCE SI :\n- Gonflement gorge\n- Problèmes respiration\n- Malaise\n➜ SAMU (15)"
+        ]
+    },
+    {
+        "tag": "piqures_insectes",
+        "patterns": [
+            "Je gonfle beaucoup après une piqûre de guêpe, est-ce une allergie ?",
+            "Comment savoir si on est allergique aux piqûres d'insectes ?",
+            "Que faire immédiatement après une piqûre si on est allergique ?",
+            "J'ai été piqué par une abeille et j'ai du mal à respirer",
+            "Comment éviter les piqûres d'insectes quand on est allergique ?",
+            "Ma réaction aux piqûres de moustiques est-elle normale ?",
+            "Piqûre de frelon, je suis allergique que faire ?",
+            "Les piqûres d'insectes me font de plus en plus réagir"
+        ],
+        "responses": [
+            "Réactions aux piqûres d'insectes :\n\nRÉACTION NORMALE :\n- Rougeur locale\n- Gonflement < 10cm\n- Douleur/démangeaison\n- Durée 2-3 jours\n\nSIGNES ALLERGIE GRAVE :\n- Gonflement étendu\n- Difficultés respiratoires\n- Malaise/vertiges\n- Nausées\n\nPREMIERS SOINS :\n1. Piqûre simple\n- Retirer dard\n- Désinfecter\n- Froid local\n- Antihistaminique\n\n2. Allergie connue\n- Utiliser Stylo adrénaline\n- Appeler secours\n- Position allongée\n\nPRÉVENTION :\n- Éviter zones risque\n- Vêtements adaptés\n- Kit urgence\n\nURGENCE SI :\n- Gonflement rapide\n- Gorge serrée\n- Respiration difficile"
+        ]
+    },
+    {
+        "tag": "allergies_animaux",
+        "patterns": [
+            "Comment vivre avec un chat quand on est allergique ?",
+            "Je pense être allergique aux animaux, quels sont les symptômes ?",
+            "Allergie aux chiens, quelles races sont hypoallergéniques ?",
+            "Mes allergies aux animaux s'aggravent avec le temps",
+            "Comment réduire les allergies aux animaux à la maison ?",
+            "Je veux adopter un animal mais je suis allergique, que faire ?",
+            "Allergie aux animaux et asthme, comment gérer ?",
+            "Solutions naturelles pour allergie aux poils d'animaux ?"
+        ],
+        "responses": [
+            "Gestion des allergies aux animaux :\n\nSYMPTÔMES COURANTS :\n- Nez qui coule\n- Yeux irrités\n- Éternuements\n- Respiration sifflante\n\nAMÉNAGEMENTS :\n1. Maison\n- Zones sans animaux\n- Chambre interdite\n- Filtres HEPA\n- Ménage fréquent\n\n2. Contact animal\n- Lavage mains\n- Vêtements dédiés\n- Brossage extérieur\n- Toilettage régulier\n\nSOLUTIONS :\n- Antihistaminiques\n- Désensibilisation\n- Races adaptées\n- Conseils vétérinaire\n\nCONSULTEZ SI :\n- Asthme\n- Symptômes sévères\n- Impact quotidien"
+        ]
+    },
+    {
+        "tag": "allergies_latex",
+        "patterns": [
+            "Comment savoir si je suis allergique au latex ?",
+            "Quels sont les objets à éviter en cas d'allergie au latex ?",
+            "J'ai des réactions aux gants en latex, que faire ?",
+            "Allergie au latex en milieu médical, comment gérer ?",
+            "Alternatives aux produits contenant du latex ?",
+            "Ma peau réagit au latex, est-ce dangereux ?",
+            "Allergie latex et rendez-vous dentaire, que faire ?",
+            "Liste des produits contenant du latex à éviter ?"
+        ],
+        "responses": [
+            "Gestion allergie au latex :\n\nSYMPTÔMES :\n1. Contact direct\n- Démangeaisons\n- Rougeurs\n- Urticaire\n- Gonflement\n\n2. Exposition indirecte\n- Rhinite\n- Conjonctivite\n- Asthme possible\n\nÉVITEMENT :\n- Gants alternatives\n- Matériel médical adapté\n- Vérifier étiquettes\n- Informer personnel médical\n\nPRÉCAUTIONS :\n- Carte allergie\n- Bracelet médical\n- Kit urgence\n- Information entourage\n\nURGENCE SI :\n- Gonflement rapide\n- Difficultés respiratoires\n- Réaction systémique"
+        ]
+    },
+    {
+        "tag": "prise_medicaments",
+        "patterns": [
+            "J'ai oublié de prendre mon médicament ce matin, que dois-je faire ?",
+            "Est-ce grave si je prends mon médicament avec 2 heures de retard ?",
+            "Je dois prendre mes médicaments à jeun, combien de temps dois-je attendre avant de manger ?",
+            "Puis-je écraser mes comprimés si j'ai du mal à les avaler ?",
+            "À quelle heure est-il préférable de prendre mes médicaments ?",
+            "Comment savoir si je dois prendre mon médicament pendant ou en dehors des repas ?",
+            "J'ai vomi peu après avoir pris mon médicament, dois-je le reprendre ?",
+            "Est-ce que je peux couper mes comprimés en deux ?"
+        ],
+        "responses": [
+            "Conseils pour la prise de médicaments :\n\nEN CAS D'OUBLI :\n1. Médicament 1 fois/jour\n- Si < 12h : prendre dose\n- Si > 12h : sauter dose\n\n2. Plusieurs prises/jour\n- Voir notice spécifique\n- Ne pas doubler dose\n\nRÈGLES GÉNÉRALES :\n- À jeun = 2h avant/après repas\n- Pendant repas si indiqué\n- Ne pas écraser sans avis\n- Respecter horaires fixes\n\nCONSULTEZ SI :\n- Doute sur la prise\n- Vomissements < 30min\n- Questions spécifiques\n\nNOTES IMPORTANTES :\n- Garder rythme régulier\n- Noter prises/oublis\n- Suivre prescriptions"
+        ]
+    },
+    {
+        "tag": "effets_secondaires_generaux",
+        "patterns": [
+            "Quels sont les effets secondaires les plus courants des médicaments ?",
+            "Comment savoir si mes symptômes sont des effets secondaires ?",
+            "Combien de temps durent généralement les effets secondaires ?",
+            "J'ai des effets secondaires gênants, dois-je arrêter mon traitement ?",
+            "Mes effets secondaires sont-ils normaux ou dois-je m'inquiéter ?",
+            "Comment gérer les nausées causées par mes médicaments ?",
+            "Je me sens très fatigué depuis que j'ai commencé mon traitement",
+            "Dois-je signaler tous les effets secondaires à mon médecin ?"
+        ],
+        "responses": [
+            "Gestion des effets secondaires :\n\nEFFETS COURANTS :\n1. Digestifs\n- Nausées\n- Diarrhée/constipation\n- Maux d'estomac\n\n2. Généraux\n- Fatigue\n- Maux de tête\n- Vertiges\n\nQUE FAIRE :\n- Noter les symptômes\n- Observer durée/intensité\n- Suivre conseils notice\n- Ne pas arrêter seul\n\nCONSULTEZ SI :\n- Effets sévères\n- Perturbation quotidien\n- Inquiétudes\n\nURGENCE SI :\n- Réaction allergique\n- Difficultés respiratoires\n- Malaise"
+        ]
+    },
+    {
+        "tag": "interactions_medicamenteuses",
+        "patterns": [
+            "Comment savoir si mes médicaments sont compatibles entre eux ?",
+            "Puis-je prendre du paracétamol avec mes médicaments habituels ?",
+            "Y a-t-il des aliments à éviter avec mes médicaments ?",
+            "Est-ce que je peux boire de l'alcool avec mon traitement ?",
+            "Mes différents traitements peuvent-ils interagir entre eux ?",
+            "Quels médicaments ne faut-il jamais mélanger ?",
+            "Je prends plusieurs traitements, comment éviter les interactions ?",
+            "Certains compléments alimentaires peuvent-ils interagir avec mes médicaments ?"
+        ],
+        "responses": [
+            "Prévention des interactions :\n\nPRÉCAUTIONS GÉNÉRALES :\n1. Avant prise\n- Informer tous prescripteurs\n- Lire notices\n- Vérifier compatibilités\n\n2. À éviter\n- Automédication sans avis\n- Mélanges non validés\n- Alcool avec médicaments\n\nINTERACTIONS COURANTES :\n- Anticoagulants\n- Antibiotiques\n- Antidépresseurs\n- Certains aliments\n\nDEMANDER AVIS :\n- Pharmacien\n- Médecin traitant\n- Spécialistes\n\nTOUJOURS MENTIONNER :\n- Tous traitements\n- Compléments/plantes\n- Automédication"
+        ]
+    },
+    {
+        "tag": "conservation_medicaments",
+        "patterns": [
+            "Comment bien conserver mes médicaments ?",
+            "Jusqu'à quand peut-on garder des médicaments entamés ?",
+            "Mes médicaments doivent-ils être au frigo ?",
+            "Que faire des médicaments périmés ?",
+            "Peut-on encore utiliser un médicament qui a changé de couleur ?",
+            "Comment savoir si un médicament est encore bon ?",
+            "Où ranger ses médicaments à la maison ?",
+            "La chaleur peut-elle abîmer mes médicaments ?"
+        ],
+        "responses": [
+            "Conservation des médicaments :\n\nCONDITIONS IDÉALES :\n1. Stockage\n- Endroit sec\n- T° ambiante (15-25°C)\n- À l'abri lumière\n- Hors portée enfants\n\n2. Cas particuliers\n- Frigo si indiqué\n- Emballage d'origine\n- Notice conservée\n\nÀ VÉRIFIER :\n- Dates péremption\n- Aspect/couleur\n- Intégrité emballage\n\nNE PAS :\n- Garder entamés\n- Stocker sdb/cuisine\n- Exposer chaleur\n\nRAPPORTER :\n- Périmés pharmacie\n- Non utilisés\n- Détériorés"
+        ]
+    },
+    {
+        "tag": "automedication",
+        "patterns": [
+            "Quels médicaments puis-je prendre sans ordonnance ?",
+            "Comment choisir un bon médicament en pharmacie ?",
+            "Est-ce dangereux de prendre des médicaments sans avis médical ?",
+            "Quels sont les risques de l'automédication ?",
+            "Puis-je prendre des anti-inflammatoires sans ordonnance ?",
+            "Comment soulager un mal de tête sans ordonnance ?",
+            "Quels médicaments avoir dans sa pharmacie ?",
+            "Précautions à prendre pour l'automédication ?"
+        ],
+        "responses": [
+            "Automédication responsable :\n\nMÉDICAMENTS COURANTS :\n1. Douleur/Fièvre\n- Paracétamol\n- Respecter doses\n- Max 3g/jour adulte\n\n2. Précautions\n- Lire notice\n- Durée limitée\n- Pas de mélange\n\nRISQUES :\n- Masquage symptômes\n- Effets indésirables\n- Interactions\n- Retard diagnostic\n\nDEMANDER CONSEIL :\n- Pharmacien\n- Symptômes > 3 jours\n- Doute/questions\n\nNE JAMAIS :\n- Dépasser doses\n- Prolonger sans avis\n- Donner à autres"
+        ]
+    },
+    {
+        "tag": "observance_traitement",
+        "patterns": [
+            "Comment ne pas oublier de prendre ses médicaments ?",
+            "Je n'arrive pas à suivre mon traitement correctement, que faire ?",
+            "Conseils pour bien suivre un traitement long ?",
+            "Comment s'organiser avec plusieurs médicaments par jour ?",
+            "J'oublie souvent mes médicaments le week-end",
+            "Applications pour rappel médicaments ?",
+            "Comment faire un planning de prise de médicaments ?",
+            "Astuces pour ne pas oublier ses traitements en voyage ?"
+        ],
+        "responses": [
+            "Observance du traitement :\n\nORGANISATION :\n1. Outils pratiques\n- Pilulier semainier\n- Alarmes téléphone\n- Applications santé\n- Calendrier prises\n\n2. Routines\n- Horaires fixes\n- Associer activités\n- Notes visibles\n- Planning écrit\n\nCONSEILS :\n- Préparer avance\n- Double des ordonnances\n- Stock sécurité\n- Liste médicaments\n\nEN VOYAGE :\n- Ordonnances traduites\n- Médicaments cabine\n- Doses supplémentaires\n\nSI DIFFICULTÉS :\n- Parler médecin\n- Simplifier schéma\n- Aide entourage"
+        ]
+    },
+    {
+        "tag": "medicaments_specifiques",
+        "patterns": [
+            "Comment fonctionnent les antibiotiques ?",
+            "Pourquoi dois-je finir ma boîte d'antibiotiques ?",
+            "Les anti-inflammatoires sont-ils dangereux ?",
+            "Différence entre aspirine et paracétamol ?",
+            "Puis-je arrêter mes antidépresseurs progressivement ?",
+            "Comment bien utiliser les médicaments contre l'hypertension ?",
+            "Est-ce grave d'oublier sa pilule contraceptive ?",
+            "Précautions avec les anticoagulants ?"
+        ],
+        "responses": [
+            "Information médicaments spécifiques :\n\nANTIBIOTIQUES :\n- Finir traitement\n- Heures régulières\n- Pas d'arrêt précoce\n\nANTI-INFLAMMATOIRES :\n- Pendant repas\n- Durée limitée\n- Surveillance digestive\n\nANTIDÉPRESSEURS :\n- Pas d'arrêt brutal\n- Suivi médical\n- Patience efficacité\n\nANTICOAGULANTS :\n- Surveillance régulière\n- Attention interactions\n- Signaler prescripteurs\n\nCONTRACEPTIFS :\n- Heure fixe\n- Règles oubli\n- Précautions backup\n\nCONSULTER SI :\n- Questions spécifiques\n- Effets inhabituels\n- Doutes posologie"
+        ]
+    },
+    {
+        "tag": "alimentation_equilibree",
+        "patterns": [
+            "Comment avoir une alimentation équilibrée au quotidien ?",
+            "Quels sont les aliments essentiels pour être en bonne santé ?",
+            "Je veux manger plus sainement, par quoi commencer ?",
+            "Combien de fruits et légumes faut-il manger par jour ?",
+            "Comment composer un repas équilibré ?",
+            "Quelles sont les portions recommandées pour chaque type d'aliment ?",
+            "Je mange souvent à l'extérieur, comment garder une alimentation saine ?",
+            "Quels sont les aliments à éviter ou à limiter pour la santé ?",
+            "Comment intégrer plus de protéines végétales dans mon alimentation ?",
+            "Conseils pour manger équilibré avec un petit budget"
+        ],
+        "responses": [
+            "Conseils pour une alimentation équilibrée :\n\nPRINCIPES DE BASE :\n1. Composition repas\n- 50% légumes\n- 25% protéines\n- 25% féculents complets\n\n2. Recommandations quotidiennes\n- 5 fruits/légumes\n- 2 portions protéines\n- 3 produits laitiers\n- Céréales complètes\n\nBONNES HABITUDES :\n- Repas réguliers\n- Manger lentement\n- Écouter sa faim\n- Hydratation suffisante\n\nÀ LIMITER :\n- Sucres ajoutés\n- Graisses saturées\n- Sel\n- Aliments ultra-transformés\n\nASTUCES PRATIQUES :\n- Planifier repas\n- Cuisiner maison\n- Lire étiquettes\n- Faire liste courses"
+        ]
+    },
+    {
+        "tag": "activite_physique_recommandations",
+        "patterns": [
+            "Combien d'activité physique dois-je faire par semaine ?",
+            "Quels sont les meilleurs exercices pour rester en forme ?",
+            "Comment commencer le sport quand on est sédentaire ?",
+            "Je n'ai pas le temps de faire du sport, que me conseillez-vous ?",
+            "Quels exercices physiques peut-on faire chez soi ?",
+            "Comment intégrer plus d'activité physique dans mon quotidien ?",
+            "Quel sport choisir quand on débute ?",
+            "Comment éviter les blessures en commençant le sport ?",
+            "Activité physique après 50 ans, que recommandez-vous ?",
+            "Comment garder la motivation pour faire du sport régulièrement ?"
+        ],
+        "responses": [
+            "Recommandations activité physique :\n\nOBJECTIFS HEBDOMADAIRES :\n1. Adultes\n- 150 min activité modérée\n- OU 75 min activité intense\n- Renforcement musculaire 2x\n\n2. Débutants\n- Commencer progressivement\n- Augmenter durée/intensité\n- Écouter son corps\n\nACTIVITÉS QUOTIDIENNES :\n- Marcher plus\n- Prendre escaliers\n- Vélo transport\n- Jardinage/ménage actif\n\nCONSEILS PRATIQUES :\n- Choisir activité plaisante\n- Varier exercices\n- Établir routine\n- S'hydrater correctement\n\nPRÉCAUTIONS :\n- Échauffement\n- Progression graduelle\n- Repos nécessaire\n- Consulter si doute"
+        ]
+    },
+    {
+        "tag": "vaccination_prevention",
+        "patterns": [
+            "Quels sont les vaccins obligatoires et recommandés ?",
+            "Quand dois-je faire mes rappels de vaccins ?",
+            "Comment savoir si mes vaccins sont à jour ?",
+            "Je vais voyager, quels vaccins dois-je faire ?",
+            "Vaccins recommandés pour les personnes âgées ?",
+            "Effets secondaires courants des vaccins ?",
+            "Comment fonctionne la vaccination ?",
+            "Pourquoi est-il important de se faire vacciner ?",
+            "Quels vaccins pour les nourrissons ?",
+            "Je suis enceinte, quels vaccins sont recommandés ?"
+        ],
+        "responses": [
+            "Informations sur la vaccination :\n\nVACCINS ESSENTIELS :\n1. Obligatoires\n- DTP (Diphtérie-Tétanos-Polio)\n- Coqueluche\n- Hépatite B\n- BCG (selon cas)\n\n2. Recommandés\n- Grippe (populations à risque)\n- Pneumocoque\n- HPV\n- ROR\n\nFRÉQUENCE RAPPELS :\n- DTP: tous les 20 ans adulte\n- Grippe: annuel\n- Autres: selon calendrier\n\nCONSEILS :\n- Carnet vaccination à jour\n- Anticipation voyages\n- Consultation préventive\n- Suivi recommandations\n\nCONSULTER SI :\n- Questions spécifiques\n- Effets indésirables\n- Voyages prévus"
+        ]
+    },
+    {
+        "tag": "hygiene_sommeil",
+        "patterns": [
+            "Comment améliorer la qualité de mon sommeil ?",
+            "Combien d'heures faut-il dormir par nuit ?",
+            "Conseils pour mieux s'endormir ?",
+            "Comment avoir un bon rythme de sommeil ?",
+            "Que faire contre l'insomnie occasionnelle ?",
+            "Les écrans affectent-ils le sommeil ?",
+            "Comment créer une bonne routine du soir ?",
+            "Quelle est la meilleure position pour dormir ?",
+            "Comment gérer le décalage horaire ?",
+            "Alimentation et sommeil, quels liens ?"
+        ],
+        "responses": [
+            "Conseils pour un bon sommeil :\n\nBONNES PRATIQUES :\n1. Environnement\n- Chambre fraîche (18-20°C)\n- Obscurité totale\n- Calme\n- Literie adaptée\n\n2. Routine\n- Heures fixes\n- Relaxation avant coucher\n- Éviter écrans 1h avant\n- Activité physique journée\n\nÀ ÉVITER :\n- Caféine après 16h\n- Repas copieux soir\n- Siestes longues\n- Écrans lit\n\nBESOINS SOMMEIL :\n- Adultes: 7-9h\n- Écouter son corps\n- Régularité importante\n\nCONSULTER SI :\n- Insomnie persistante\n- Fatigue chronique\n- Troubles respiratoires"
+        ]
+    },
+    {
+        "tag": "gestion_stress",
+        "patterns": [
+            "Comment gérer son stress au quotidien ?",
+            "Quelles sont les techniques de relaxation efficaces ?",
+            "Comment réduire son stress au travail ?",
+            "Exercices de respiration anti-stress ?",
+            "Méditation pour débutants, comment commencer ?",
+            "Impact du stress sur la santé ?",
+            "Comment reconnaître les signes de stress ?",
+            "Solutions naturelles contre le stress ?",
+            "Sport et stress, quels bénéfices ?",
+            "Comment éviter le surmenage ?"
+        ],
+        "responses": [
+            "Gestion du stress :\n\nTECHNIQUES IMMÉDIATES :\n1. Respiration\n- Inspirations profondes\n- Cohérence cardiaque\n- Exercices guidés\n\n2. Relaxation\n- Méditation simple\n- Étirements doux\n- Pauses régulières\n\nHABITUDES ANTI-STRESS :\n- Activité physique\n- Sommeil suffisant\n- Alimentation équilibrée\n- Temps pour soi\n\nPRÉVENTION :\n- Identifier déclencheurs\n- Limites saines\n- Organisation\n- Soutien social\n\nCONSULTER SI :\n- Stress chronique\n- Anxiété forte\n- Symptômes physiques"
+        ]
+    },
+    {
+        "tag": "hydratation",
+        "patterns": [
+            "Quelle quantité d'eau boire par jour ?",
+            "Comment savoir si on est bien hydraté ?",
+            "Quelles sont les meilleures boissons pour s'hydrater ?",
+            "Signes de déshydratation à surveiller ?",
+            "Comment boire plus d'eau au quotidien ?",
+            "Faut-il boire pendant les repas ?",
+            "L'eau pendant le sport, quelle quantité ?",
+            "Thé et café comptent-ils dans l'hydratation ?",
+            "Hydratation selon les saisons ?",
+            "Eau du robinet ou eau en bouteille ?"
+        ],
+        "responses": [
+            "Conseils pour une bonne hydratation :\n\nBESOINS QUOTIDIENS :\n1. Quantités\n- 1.5-2L par jour\n- Plus si chaleur/sport\n- Adaptation individuelle\n\n2. Sources\n- Eau principale source\n- Thé/café modérément\n- Fruits/légumes hydratants\n\nBONNES PRATIQUES :\n- Boire régulièrement\n- Anticiper soif\n- Bouteille réutilisable\n- Rappels réguliers\n\nSURVEILLANCE :\n- Couleur urine\n- Sensation soif\n- État peau/lèvres\n\nATTENTION SI :\n- Soif intense\n- Urine foncée\n- Fatigue soudaine\n- Bouche sèche"
+        ]
+    },
+    {
+        "tag": "symptomes_debut_grossesse",
+        "patterns": [
+            "Comment savoir si je suis enceinte avant de faire un test ?",
+            "Quels sont les premiers signes d'une grossesse ?",
+            "Est-ce normal d'être très fatiguée en début de grossesse ?",
+            "J'ai des nausées toute la journée, que faire ?",
+            "Quand commencent les symptômes de grossesse ?",
+            "Mes seins sont très sensibles, est-ce un signe de grossesse ?",
+            "Je suis très émotive depuis quelques jours, possible grossesse ?",
+            "Spotting en début de grossesse, est-ce normal ?",
+            "Comment soulager les nausées matinales ?",
+            "Quand consulter pour confirmer une grossesse ?"
+        ],
+        "responses": [
+            "Signes précoces de grossesse :\n\nSYMPTÔMES FRÉQUENTS :\n1. Physiques\n- Absence règles\n- Nausées/vomissements\n- Seins sensibles/gonflés\n- Fatigue intense\n- Envies fréquentes d'uriner\n\n2. Émotionnels\n- Hypersensibilité\n- Sautes d'humeur\n- Anxiété/euphorie\n\nSOULAGEMENT NAUSÉES :\n- Petits repas fréquents\n- Gingembre\n- Éviter odeurs fortes\n- S'hydrater régulièrement\n\nCONSULTER SI :\n- Test positif\n- Douleurs intenses\n- Saignements\n- Vomissements sévères\n\nNOTES :\n- Symptômes variables\n- Intensité différente\n- Début 2-3 semaines"
+        ]
+    },
+    {
+        "tag": "suivi_grossesse_medical",
+        "patterns": [
+            "Quels sont les examens obligatoires pendant la grossesse ?",
+            "À quelle fréquence dois-je voir mon gynécologue ?",
+            "Quelles échographies sont prévues pendant la grossesse ?",
+            "Quels tests sont à faire au premier trimestre ?",
+            "Comment choisir où accoucher ?",
+            "Quand commence le congé maternité ?",
+            "Faut-il faire tous les tests de dépistage ?",
+            "Comment se passe une consultation de suivi ?",
+            "Quels vaccins sont recommandés pendant la grossesse ?",
+            "Comment préparer son projet de naissance ?"
+        ],
+        "responses": [
+            "Guide suivi médical grossesse :\n\nCONSULTATIONS :\n1. Fréquence\n- 1 fois/mois minimum\n- Plus si grossesse à risque\n\n2. Examens clés\n- 3 échographies (12, 22, 32 sem)\n- Prise sang mensuelle\n- Test diabète (24-28 sem)\n\nDOCUMENTS :\n- Déclaration grossesse\n- Carnet maternité\n- Projet naissance\n- Examens obligatoires\n\nPRÉPARATION :\n- Choix maternité\n- Cours préparation\n- Plan naissance\n- Valise maternité\n\nURGENCE SI :\n- Saignements\n- Contractions précoces\n- Perte liquide\n- Diminution mouvements"
+        ]
+    },
+    {
+        "tag": "alimentation_grossesse",
+        "patterns": [
+            "Que faut-il éviter de manger enceinte ?",
+            "Quels aliments sont recommandés pendant la grossesse ?",
+            "Comment gérer la prise de poids pendant la grossesse ?",
+            "Faut-il manger pour deux quand on est enceinte ?",
+            "Quels sont les aliments dangereux pendant la grossesse ?",
+            "Quelles vitamines prendre pendant la grossesse ?",
+            "Je n'arrive pas à manger au premier trimestre, que faire ?",
+            "Combien de kilos prendre pendant la grossesse ?",
+            "Comment éviter la listériose pendant la grossesse ?",
+            "Régime végétarien et grossesse, est-ce compatible ?"
+        ],
+        "responses": [
+            "Alimentation pendant la grossesse :\n\nALIMENTS RECOMMANDÉS :\n1. Essentiels\n- Fruits/légumes frais\n- Protéines variées\n- Produits laitiers\n- Céréales complètes\n\n2. Suppléments\n- Acide folique\n- Fer si prescrit\n- Vitamine D\n- Iode\n\nÀ ÉVITER :\n- Viande/poisson crus\n- Fromages non pasteurisés\n- Œufs crus/peu cuits\n- Alcool/tabac\n\nCONSEILS :\n- 300-500 cal/jour en plus\n- Prise poids progressive\n- Hydratation importante\n- Petits repas fréquents\n\nCONSULTER SI :\n- Perte/gain excessif\n- Carences\n- Nausées sévères"
+        ]
+    },
+    {
+        "tag": "post_partum_immediat",
+        "patterns": [
+            "Comment se passe la récupération après l'accouchement ?",
+            "Quand les saignements post-accouchement s'arrêtent-ils ?",
+            "Est-ce normal d'avoir encore mal au ventre après l'accouchement ?",
+            "Comment prendre soin de son périnée après l'accouchement ?",
+            "Quand peut-on reprendre le sport après avoir accouché ?",
+            "Comment savoir si j'ai un baby blues ?",
+            "Les premiers jours avec bébé, comment s'organiser ?",
+            "Quand consulter en post-partum ?",
+            "Comment gérer la fatigue post-accouchement ?",
+            "Signes de dépression post-partum à surveiller ?"
+        ],
+        "responses": [
+            "Suivi post-partum :\n\nRÉCUPÉRATION PHYSIQUE :\n1. Normal\n- Saignements 3-6 semaines\n- Contractions utérines\n- Fatigue intense\n- Douleurs périnée\n\n2. Soins quotidiens\n- Hygiène intime\n- Glace si douleur\n- Repos maximal\n- Mobilisation douce\n\nSANTÉ MENTALE :\n- Baby blues fréquent\n- Émotions variables\n- Besoin de soutien\n- Repos essentiel\n\nURGENCE SI :\n- Fièvre\n- Saignements abondants\n- Douleurs intenses\n- Idées noires\n\nREPRISE ACTIVITÉS :\n- Progressive\n- Avis médical\n- Rééducation périnée\n- Selon récupération"
+        ]
+    },
+    {
+        "tag": "allaitement",
+        "patterns": [
+            "Comment savoir si bébé prend assez de lait ?",
+            "Position pour bien allaiter ?",
+            "J'ai mal quand j'allaite, que faire ?",
+            "Comment augmenter sa production de lait ?",
+            "Combien de tétées par jour ?",
+            "Signes que bébé a faim ?",
+            "Comment tirer son lait et le conserver ?",
+            "Médicaments compatibles avec l'allaitement ?",
+            "Comment sevrer en douceur ?",
+            "Alimentation pendant l'allaitement ?"
+        ],
+        "responses": [
+            "Guide allaitement :\n\nBONNE TÉTÉE :\n1. Position\n- Bébé face sein\n- Ventre contre ventre\n- Bouche grande ouverte\n- Prise profonde\n\n2. Signes efficacité\n- Déglutition audible\n- Couches mouillées\n- Bébé détendu\n- Prise poids\n\nSOINS SEINS :\n- Hygiène douce\n- Air après tétée\n- Crème adaptée\n- Soutien-gorge confort\n\nRYTHME :\n- À la demande\n- 8-12 fois/24h\n- Durée variable\n- 2 seins proposés\n\nCONSULTER SI :\n- Douleurs persistantes\n- Crevasses\n- Fièvre\n- Doutes croissance"
+        ]
+    },
+    {
+        "tag": "adaptation_nouveau_ne",
+        "patterns": [
+            "Comment savoir si mon bébé va bien ?",
+            "Rythme normal sommeil nouveau-né ?",
+            "Quand s'inquiéter pour son bébé ?",
+            "Comment comprendre les pleurs de bébé ?",
+            "Température normale nouveau-né ?",
+            "Combien de couches par jour ?",
+            "Évolution poids nouveau-né normal ?",
+            "Premier bain à la maison conseils ?",
+            "Routine nouveau-né conseils ?",
+            "Signes de mal-être chez le nouveau-né ?"
+        ],
+        "responses": [
+            "Suivi nouveau-né :\n\nSIGNES BONNE SANTÉ :\n1. Comportement\n- Éveillé aux tétées\n- Réactif\n- Consolable\n- Bon tonus\n\n2. Besoins quotidiens\n- 6-8 couches mouillées\n- 2-5 selles/jour\n- 8-12 tétées\n- Sommeil fractionné\n\nSURVEILLANCE :\n- Température 36.5-37.5°C\n- Couleur peau\n- Respiration calme\n- Prise poids\n\nURGENCE SI :\n- Fièvre\n- Refus alimentaire\n- Somnolence excessive\n- Pleurs inconsolables\n\nSOINS QUOTIDIENS :\n- Change régulier\n- Toilette douce\n- Position variée\n- Contact peau à peau"
+        ]
+    },
+    {
+        "tag": "maladies_infantiles_courantes",
+        "patterns": [
+            "Mon enfant a de la fièvre depuis deux jours, que faire ?",
+            "Comment savoir si c'est une varicelle ou une simple éruption ?",
+            "Les symptômes de la bronchiolite chez le nourrisson ?",
+            "Mon enfant a mal aux oreilles la nuit, est-ce une otite ?",
+            "Comment soigner une gastro chez un enfant de 3 ans ?",
+            "Mon bébé tousse beaucoup, quand s'inquiéter ?",
+            "Les signes de la rougeole chez l'enfant ?",
+            "Comment reconnaître une angine chez l'enfant ?",
+            "Mon enfant se gratte beaucoup, possible impétigo ?",
+            "Quand consulter pour une conjonctivite chez l'enfant ?",
+            "Comment soulager les symptômes de la roséole ?",
+            "Mon enfant a les oreillons, que faire ?",
+            "Scarlatine chez l'enfant, quels symptômes ?",
+            "Comment gérer la fièvre chez un bébé de moins d'un an ?",
+            "Rhume chez bébé, comment l'aider à respirer ?"
+        ],
+        "responses": [
+            "Guide maladies infantiles :\n\nGESTION FIÈVRE :\n1. Moins de 3 mois\n- Consultation immédiate\n\n2. Plus de 3 mois\n- Paracétamol si >38.5°C\n- Hydratation accrue\n- Découvrir enfant\n\nSIGNES INQUIÉTANTS :\n- Fièvre > 40°C\n- Somnolence anormale\n- Difficultés respiratoires\n- Taches violacées\n\nSOINS QUOTIDIENS :\n- Repos\n- Hydratation\n- Surveillance température\n- Hygiène renforcée\n\nCONSULTER SI :\n- Fièvre persistante\n- Refus alimentation\n- Comportement inhabituel\n- Éruption inquiétante\n\nPRÉVENTION :\n- Lavage mains\n- Vaccination\n- Éviter contacts malades"
+        ]
+    },
+    {
+        "tag": "vaccinations_enfant",
+        "patterns": [
+            "Quel est le calendrier vaccinal pour les enfants ?",
+            "Quels sont les vaccins obligatoires en crèche ?",
+            "Mon bébé a de la fièvre après son vaccin, est-ce normal ?",
+            "Comment se passe la vaccination à 2 mois ?",
+            "Quels sont les effets secondaires possibles des vaccins ?",
+            "Peut-on faire plusieurs vaccins en même temps ?",
+            "Quand faire le rappel du ROR ?",
+            "Les vaccins recommandés mais non obligatoires ?",
+            "Comment préparer son enfant à la vaccination ?",
+            "Que faire si on a raté un vaccin ?",
+            "Comment rattraper les vaccins en retard ?",
+            "Vaccination coqueluche, quand faire les rappels ?",
+            "Carnet de vaccination perdu, que faire ?",
+            "Vaccins avant l'entrée à l'école ?",
+            "Conservation des vaccins, précautions ?"
+        ],
+        "responses": [
+            "Guide vaccination pédiatrique :\n\nCALENDRIER VACCINAL :\n1. Obligatoires\n- 2 mois: Hexa + Pneumo\n- 4 mois: Hexa + Pneumo\n- 11 mois: Hexa + Pneumo\n- 12 mois: ROR\n- 16-18 mois: Méningite C\n\n2. Recommandés\n- Grippe (si risque)\n- Rotavirus\n- Méningite B\n\nEFFETS NORMAUX :\n- Fièvre légère\n- Rougeur locale\n- Irritabilité\n- Fatigue\n\nPRÉCAUTIONS :\n- Paracétamol si fièvre\n- Surveillance 48h\n- Carnet à jour\n\nCONSULTER SI :\n- Fièvre élevée\n- Réaction importante\n- Pleurs inhabituels"
+        ]
+    },
+    {
+        "tag": "developpement_normal",
+        "patterns": [
+            "Quelles sont les étapes du développement d'un bébé ?",
+            "À quel âge bébé doit-il tenir sa tête ?",
+            "Quand bébé commence à marcher normalement ?",
+            "Les premiers mots, c'est vers quel âge ?",
+            "Mon bébé ne rampe pas encore à 8 mois, est-ce normal ?",
+            "Développement psychomoteur par âge ?",
+            "À quel âge bébé doit-il répondre à son prénom ?",
+            "Signes d'un bon développement à 1 an ?",
+            "Comment stimuler le développement de mon bébé ?",
+            "Mon enfant de 2 ans ne parle pas beaucoup, inquiétant ?",
+            "Étapes d'acquisition de la propreté ?",
+            "Développement social de l'enfant par âge ?",
+            "Jeux adaptés selon l'âge ?",
+            "Retard de développement, quand s'inquiéter ?",
+            "Jalons développement 0-3 ans ?"
+        ],
+        "responses": [
+            "Guide développement enfant :\n\nJALONS PAR ÂGE :\n1. 0-3 mois\n- Tient tête\n- Suit regard\n- Sourit\n- Gazouille\n\n2. 4-6 mois\n- Roule\n- Saisit objets\n- Rit aux éclats\n- Réagit aux sons\n\n3. 7-12 mois\n- S'assied seul\n- Rampe/4 pattes\n- Premier mot\n- Mange seul\n\n4. 1-2 ans\n- Marche\n- 10-20 mots\n- Monte escaliers\n- Empile cubes\n\nSTIMULATION :\n- Jeux adaptés\n- Lecture\n- Activités motrices\n- Interactions sociales\n\nCONSULTER SI :\n- Retard important\n- Régression\n- Inquiétudes développement"
+        ]
+    },
+    {
+        "tag": "alimentation_enfant",
+        "patterns": [
+            "Quand commencer la diversification alimentaire ?",
+            "Comment introduire les nouveaux aliments ?",
+            "Mon enfant refuse de manger, que faire ?",
+            "Quantités recommandées par âge ?",
+            "Aliments à éviter avant 3 ans ?",
+            "Comment gérer un enfant difficile avec la nourriture ?",
+            "Menu type pour un enfant de 2 ans ?",
+            "Collations saines pour enfants ?",
+            "Allergies alimentaires, signes à surveiller ?",
+            "Mon enfant ne mange que des pâtes, normal ?",
+            "Besoins nutritionnels par âge ?",
+            "Transition au lait de vache, quand ?",
+            "Comment donner le goût des légumes ?",
+            "Repas équilibré enfant maternelle ?",
+            "Gestion refus alimentaire enfant ?"
+        ],
+        "responses": [
+            "Guide alimentation enfant :\n\nDIVERSIFICATION :\n1. 4-6 mois\n- Légumes doux\n- Fruits cuits\n- Un aliment à la fois\n- Texture adaptée\n\n2. Progressive\n- Nouvelles textures\n- Nouveaux goûts\n- Petites quantités\n- Patience\n\nREPAS ÉQUILIBRÉS :\n- Variété alimentaire\n- Portions adaptées\n- Hydratation régulière\n- Repas structurés\n\nCONSEILS :\n- Pas de forçage\n- Exemple parents\n- Ambiance détendue\n- Régularité\n\nCONSULTER SI :\n- Perte poids\n- Refus prolongé\n- Réactions allergiques\n- Comportement inquiétant"
+        ]
+    },
+    {
+        "tag": "sommeil_enfant",
+        "patterns": [
+            "Mon bébé se réveille toutes les heures, normal ?",
+            "Comment mettre en place une routine du soir ?",
+            "Besoin de sommeil par âge ?",
+            "Mon enfant fait des terreurs nocturnes, que faire ?",
+            "Comment aider bébé à faire ses nuits ?",
+            "Signes de fatigue chez l'enfant ?",
+            "Mon enfant de 2 ans refuse de dormir, solutions ?",
+            "Sieste, jusqu'à quel âge ?",
+            "Position de sommeil sécuritaire bébé ?",
+            "Cauchemars fréquents, comment aider ?",
+            "Transition lit de grand, quand et comment ?",
+            "Mon enfant se réveille trop tôt, conseils ?",
+            "Rituel du coucher efficace ?",
+            "Sommeil agité chez l'enfant, causes ?",
+            "Gestion peurs nocturnes enfant ?"
+        ],
+        "responses": [
+            "Guide sommeil enfant :\n\nBESOINS PAR ÂGE :\n1. 0-3 mois\n- 14-17h/jour\n- Cycles 2-4h\n\n2. 4-11 mois\n- 12-15h/jour\n- 2-3 siestes\n\n3. 1-2 ans\n- 11-14h/jour\n- 1-2 siestes\n\n4. 3-5 ans\n- 10-13h/jour\n- Sieste selon besoin\n\nROUTINE EFFICACE :\n- Horaires réguliers\n- Rituel apaisant\n- Chambre adaptée\n- Transition calme\n\nCONSEILS :\n- Respecter signes fatigue\n- Éviter surexcitation\n- Doudou/tétine si besoin\n- Cohérence parents\n\nCONSULTER SI :\n- Troubles persistants\n- Impact comportement\n- Terreurs fréquentes"
+        ]
+    },
+    {
+        "tag": "identite_koky",
+        "patterns": [
+            "Qui es-tu ?",
+            "C'est quoi Koky ?",
+            "Comment tu t'appelles ?",
+            "Tu es qui exactement ?",
+            "Es-tu un médecin ?",
+            "Es-tu une vraie personne ?",
+            "Qui a créé Koky ?",
+            "Tu es une IA ?",
+            "Comment fonctionne Koky ?",
+            "Es-tu un robot ?"
+        ],
+        "responses": [
+            "Bonjour ! Je suis Koky, une intelligence artificielle conçue pour vous aider avec vos questions de santé. Je ne suis pas un médecin, mais je peux vous fournir des informations fiables et vous orienter au mieux.\n\nJe suis là pour :\n- Répondre à vos questions sur la santé\n- Vous donner des informations générales\n- Vous aider à mieux comprendre certains symptômes\n- Vous conseiller sur quand consulter un professionnel\n\nImportant : Je ne remplace pas une consultation médicale, mais je peux vous aider à mieux comprendre votre santé."
+        ]
+    },
+    {
+        "tag": "competences_koky",
+        "patterns": [
+            "Que peux-tu faire ?",
+            "Dans quels domaines peux-tu m'aider ?",
+            "Quelles sont tes compétences ?",
+            "Tu connais quoi exactement ?",
+            "Sur quoi peux-tu me renseigner ?",
+            "Quels sujets peut-on aborder ensemble ?",
+            "Tu es spécialisé dans quoi ?",
+            "De quoi peut-on parler ?",
+            "Quelles informations peux-tu me donner ?",
+            "Tu peux m'aider pour quoi ?"
+        ],
+        "responses": [
+            "Je peux vous aider dans plusieurs domaines de la santé :\n\nMes domaines de compétence :\n- Symptômes courants\n- Maladies fréquentes\n- Urgences médicales\n- Grossesse et périnatalité\n- Santé des enfants\n- Vaccination et prévention\n- Médicaments courants\n- Hygiène de vie\n\nJe peux :\n- Donner des informations générales\n- Expliquer des termes médicaux\n- Conseiller sur la prévention\n- Orienter vers les bonnes ressources\n\nImportant : Je fournis des informations générales, pas de diagnostic personnel."
+        ]
+    },
+    {
+        "tag": "limites_koky",
+        "patterns": [
+            "Quelles sont tes limites ?",
+            "Que ne peux-tu pas faire ?",
+            "Peux-tu faire des diagnostics ?",
+            "Peux-tu remplacer un médecin ?",
+            "Es-tu capable de prescrire des médicaments ?",
+            "Puis-je te faire totalement confiance ?",
+            "Quand dois-je consulter un vrai médecin ?",
+            "Es-tu qualifié médicalement ?",
+            "Comment utiliser tes conseils ?",
+            "Tes informations sont-elles fiables ?"
+        ],
+        "responses": [
+            "Il est important de comprendre mes limites :\n\nJe NE PEUX PAS :\n- Faire des diagnostics\n- Prescrire des médicaments\n- Remplacer un professionnel de santé\n- Donner des conseils personnalisés\n\nJe vous conseille de consulter si :\n- Symptômes inquiétants\n- Douleurs importantes\n- Doutes sérieux\n- Besoin d'un diagnostic\n\nMon rôle est de :\n- Informer et orienter\n- Expliquer et rassurer\n- Conseiller sur la prévention\n- Aider à mieux comprendre la santé\n\nRappel : En cas de doute, consultez toujours un professionnel de santé."
+        ]
+    },
+    {
+        "tag": "utilisation_koky",
+        "patterns": [
+            "Comment bien t'utiliser ?",
+            "Comment te poser des questions ?",
+            "Comment avoir les meilleures réponses ?",
+            "Comment formuler mes questions ?",
+            "Comment discuter avec toi ?",
+            "Comment obtenir ton aide ?",
+            "Quelle est la meilleure façon de t'utiliser ?",
+            "Comment profiter au mieux de tes conseils ?",
+            "Comment commencer une conversation avec toi ?",
+            "Comment tirer le meilleur de nos échanges ?"
+        ],
+        "responses": [
+            "Pour une meilleure utilisation de mes services :\n\nConseils pour nos échanges :\n1. Questions\n- Soyez précis\n- Donnez le contexte\n- Une question à la fois\n- Détaillez vos symptômes\n\n2. Utilisation optimale\n- Posez des questions claires\n- Demandez des clarifications\n- Signalez si incompréhension\n- Vérifiez les informations\n\nJe répondrai au mieux :\n- Avec des infos fiables\n- De façon structurée\n- En termes simples\n- Avec des conseils pratiques\n\nRappel : Je suis là pour informer, pas pour diagnostiquer."
+        ]
+    },
+    {
+        "tag": "salutations",
+        "patterns": [
+            "Bonjour",
+            "Salut",
+            "Hey",
+            "Coucou",
+            "Bonsoir",
+            "Bonjour Koky",
+            "Hello",
+            "Salut ça va ?",
+            "Je peux te parler ?",
+            "T'es là ?"
+        ],
+        "responses": [
+            "Bonjour ! Je suis Koky, votre assistant santé. Comment puis-je vous aider aujourd'hui ?",
+            "Bonjour ! Je suis là pour répondre à vos questions sur la santé. Que puis-je faire pour vous ?",
+            "Salut ! Je suis Koky, ravi de pouvoir vous aider. Quelle est votre question ?"
+        ]
+    },
+    {
+        "tag": "comment_ca_va",
+        "patterns": [
+            "Comment vas-tu ?",
+            "Tu vas bien ?",
+            "La forme ?",
+            "Comment ça va ?",
+            "Ça va ?",
+            "Tu te sens comment ?",
+            "La journée se passe bien ?",
+            "La santé ?",
+            "Comment tu te sens ?",
+            "Tout va bien ?"
+        ],
+        "responses": [
+            "Je vais très bien, merci ! Je suis prêt à répondre à vos questions sur la santé. Comment puis-je vous aider ?",
+            "Tout va bien, merci de demander ! Je suis là pour vous aider avec vos questions médicales. Que souhaitez-vous savoir ?",
+            "Je vais bien et je suis prêt à vous aider ! Avez-vous des questions sur la santé ?"
+        ]
+    },
+    {
+        "tag": "au_revoir",
+        "patterns": [
+            "Au revoir",
+            "À plus",
+            "Bye",
+            "À bientôt",
+            "Salut !",
+            "Je dois y aller",
+            "Merci au revoir",
+            "À la prochaine",
+            "Bonne journée",
+            "Bonne soirée"
+        ],
+        "responses": [
+            "Au revoir ! N'hésitez pas à revenir si vous avez d'autres questions sur la santé !",
+            "À bientôt ! Prenez soin de vous et n'hésitez pas à me recontacter si besoin.",
+            "Au revoir ! Je suis disponible 24/7 si vous avez d'autres questions médicales."
+        ]
+    },
+    {
+        "tag": "remerciements",
+        "patterns": [
+            "Merci",
+            "Merci beaucoup",
+            "Je te remercie",
+            "C'est gentil",
+            "Thanks",
+            "Super merci",
+            "Merci pour ton aide",
+            "Je te suis reconnaissant",
+            "Merci de ton aide",
+            "Merci pour tes réponses"
+        ],
+        "responses": [
+            "Je vous en prie ! N'hésitez pas si vous avez d'autres questions.",
+            "C'est un plaisir de vous aider ! Avez-vous d'autres questions ?",
+            "De rien ! Je suis là pour ça. N'hésitez pas si vous avez besoin d'autres informations."
+        ]
+    },
+    {
+        "tag": "questions_basiques",
+        "patterns": [
+            "Que fais-tu ?",
+            "Tu t'occupes aujourd'hui ?",
+            "T'es occupé ?",
+            "Tu fais quoi ?",
+            "C'est quoi ton travail ?",
+            "T'es là pour quoi ?",
+            "Tu peux faire quoi ?",
+            "C'est quoi ton rôle ?",
+            "T'es dispo ?",
+            "Je peux te poser une question ?"
+        ],
+        "responses": [
+            "Je suis là pour répondre à vos questions sur la santé. Je peux vous aider à comprendre divers sujets médicaux. Que souhaitez-vous savoir ?",
+            "Je suis toujours disponible pour répondre à vos questions médicales. Comment puis-je vous aider ?",
+            "Mon rôle est de vous aider avec vos questions de santé. Je suis à votre écoute !"
+        ]
+    },
+    {
+        "tag": "humeur",
+        "patterns": [
+            "T'es de bonne humeur ?",
+            "T'as passé une bonne journée ?",
+            "T'es content ?",
+            "Comment tu te sens aujourd'hui ?",
+            "T'es fatigué ?",
+            "T'as bien dormi ?",
+            "T'es en forme ?",
+            "T'as le moral ?",
+            "T'es motivé ?",
+            "Pas trop dur le travail ?"
+        ],
+        "responses": [
+            "Je suis toujours disponible et motivé pour vous aider avec vos questions de santé !",
+            "Je suis en pleine forme et prêt à répondre à vos questions médicales !",
+            "Je suis là avec toute mon attention pour vous aider. Quelle est votre question ?"
+        ]
+    },
+    {
+        "tag": "paracetamol",
+        "patterns": [
+            "Quelle est la dose de Doliprane ?",
+            "Je peux prendre combien de Paracétamol par jour ?",
+            "Différence entre Doliprane et Efferalgan ?",
+            "Dafalgan ou Doliprane, c'est pareil ?",
+            "Je peux prendre du paracétamol combien de fois par jour ?",
+            "Dose paracétamol enfant ?",
+            "Paracétamol pendant la grossesse ?",
+            "Effets secondaires du Doliprane ?",
+            "Surdosage paracétamol danger ?",
+            "Interval entre deux prises de paracétamol ?"
+        ],
+        "responses": [
+            "Information Paracétamol :\n\nDOSAGE ADULTE :\n- Max 1g par prise\n- Max 3g par jour\n- Intervalle 4-6h entre prises\n\nPRÉCAUTIONS :\n- Ne pas dépasser doses\n- Attention alcool\n- Vérifier autres médocs contenant paracétamol\n\nCAS PARTICULIERS :\n- Grossesse : ok sous contrôle\n- Enfants : selon poids/âge\n- Insuffisance hépatique : éviter\n\nCONSULTER SI :\n- Surdosage\n- Douleur persistante\n- Fièvre > 3 jours"
+        ]
+    },
+    {
+        "tag": "ibuprofene",
+        "patterns": [
+            "Dose Advil par jour ?",
+            "Nurofen ou Advil c'est pareil ?",
+            "Je peux prendre de l'ibuprofène combien de temps ?",
+            "Ibuprofène et grossesse ?",
+            "Effets secondaires Advil ?",
+            "Ibuprofène sur estomac vide ?",
+            "Peut-on mélanger ibuprofène et paracétamol ?",
+            "Dose ibuprofène enfant ?",
+            "Interval entre prises ibuprofène ?",
+            "Contre-indications ibuprofène ?"
+        ],
+        "responses": [
+            "Information Ibuprofène :\n\nDOSAGE ADULTE :\n- 400mg max par prise\n- Max 1200mg par jour\n- Intervalle 6h minimum\n\nPRÉCAUTIONS :\n- Prendre pendant repas\n- Cure courte (3-5 jours)\n- Bien s'hydrater\n\nCONTRE-INDICATIONS :\n- Grossesse\n- Ulcère gastrique\n- Problèmes rénaux\n- Asthme (certains cas)\n\nCONSULTER SI :\n- Douleurs estomac\n- Saignements\n- Réactions allergiques\n- Usage > 5 jours"
+        ]
+    },
+    {
+        "tag": "aspirine",
+        "patterns": [
+            "Dose aspirine par jour ?",
+            "Aspirine pour la fièvre ?",
+            "Différence entre Aspirine et Aspégic ?",
+            "Aspirine à quelle dose ?",
+            "Contre-indications de l'aspirine ?",
+            "Aspirine effets secondaires ?",
+            "Peut-on prendre aspirine et paracétamol ?",
+            "Aspirine pendant règles ?",
+            "Aspirine et sport ?",
+            "Risques de l'aspirine ?"
+        ],
+        "responses": [
+            "Information Aspirine :\n\nDOSAGE ADULTE :\n- 500mg-1g par prise\n- Max 3g par jour\n- Intervalle 4h minimum\n\nPRÉCAUTIONS :\n- Prendre avec eau/repas\n- Éviter estomac vide\n- Pas avant activité physique\n\nCONTRE-INDICATIONS :\n- Ulcères gastriques\n- Troubles coagulation\n- Derniers mois grossesse\n- Enfants < 15 ans (fièvre)\n\nCONSULTER SI :\n- Saignements\n- Douleurs estomac\n- Réactions allergiques\n- Bourdonnements oreilles"
+        ]
+    },
+    {
+        "tag": "antiacides",
+        "patterns": [
+            "Quel médicament pour les brûlures d'estomac ?",
+            "Gaviscon ou Maalox, lequel choisir ?",
+            "Dose de Rennie par jour ?",
+            "Combien de temps peut-on prendre du Gaviscon ?",
+            "Antiacides pendant grossesse ?",
+            "Maalox effets secondaires ?",
+            "Remède brûlures estomac ?",
+            "Peut-on prendre des antiacides tous les jours ?",
+            "Intervalle entre antiacides et autres médicaments ?",
+            "Meilleur moment pour prendre antiacides ?"
+        ],
+        "responses": [
+            "Information Antiacides :\n\nUTILISATION :\n- Après repas\n- Au moment des symptômes\n- Intervalle 2h avec autres médocs\n\nPOSOLOGIE :\n- 1-2 comprimés par prise\n- Max 4-6 fois/jour\n- Pas plus de 7 jours\n\nPRÉCAUTIONS :\n- Pas d'utilisation prolongée\n- Attention autres médicaments\n- Surveiller symptômes\n\nCONSULTER SI :\n- Symptômes persistent\n- Douleur intense\n- Perte de poids\n- Difficulté à avaler"
+        ]
+    },
+    {
+        "tag": "antihistaminiques",
+        "patterns": [
+            "Meilleur antihistaminique sans ordonnance ?",
+            "Cétirizine ou Loratadine, différences ?",
+            "Dose antihistaminique par jour ?",
+            "Effets secondaires antihistaminiques ?",
+            "Antihistaminiques et somnolence ?",
+            "Durée traitement antihistaminique ?",
+            "Allergie quel médicament choisir ?",
+            "Peut-on conduire avec antihistaminiques ?",
+            "Antihistaminiques grossesse ?",
+            "Antihistaminiques enfants ?"
+        ],
+        "responses": [
+            "Information Antihistaminiques :\n\nTYPES COURANTS :\n1. Première génération\n- Plus somnolents\n- Action rapide\n- Ex: Polaramine\n\n2. Nouvelle génération\n- Moins somnolents\n- Action 24h\n- Ex: Cétirizine, Loratadine\n\nUTILISATION :\n- 1 prise par jour\n- Plutôt le soir\n- Avec ou sans repas\n\nPRÉCAUTIONS :\n- Éviter alcool\n- Prudence conduite\n- Pas dépasser dose\n\nCONSULTER SI :\n- Allergie sévère\n- Symptômes persistent\n- Effets indésirables"
+        ]
+    },
+    {
+        "tag": "decongestionnants",
+        "patterns": [
+            "Quel spray nasal choisir ?",
+            "Combien de temps utiliser un décongestionnant nasal ?",
+            "Humex ou Rhinadvil, différence ?",
+            "Spray nasal dangereux ?",
+            "Décongestionnant et grossesse ?",
+            "Dose spray nasal par jour ?",
+            "Effets secondaires décongestionnants ?",
+            "Rhume quel médicament prendre ?",
+            "Nez bouché médicament sans ordonnance ?",
+            "Risques spray nasal longue durée ?"
+        ],
+        "responses": [
+            "Information Décongestionnants :\n\nUTILISATION :\n- Max 3-5 jours\n- 1-2 pulv par narine\n- 2-3 fois par jour\n\nPRÉCAUTIONS :\n- Pas usage prolongé\n- Risque accoutumance\n- Nettoyer embout\n\nALTERNATIVES :\n- Lavage sérum physio\n- Inhalations\n- Solutions eau de mer\n\nCONSULTER SI :\n- Usage > 5 jours\n- Saignements\n- Maux tête sévères\n- Symptômes empirent"
+        ]
+    },
+    {
+        "tag": "douleurs_articulaires",
+        "patterns": [
+            "Quel médecin consulter pour une douleur au genou ?",
+            "J'ai mal au dos, quel spécialiste voir ?",
+            "Qui consulter pour de l'arthrose ?",
+            "Médecin pour problème d'épaule ?",
+            "Douleur à la hanche, quel docteur ?",
+            "Spécialiste des articulations ?",
+            "Qui voir pour des rhumatismes ?",
+            "Problème de tendinite, quel médecin ?",
+            "Médecin pour problème de dos chronique ?",
+            "Qui consulter pour une entorse qui ne guérit pas ?"
+        ],
+        "responses": [
+            "Pour les problèmes articulaires et musculaires :\n\nSPÉCIALISTES ADAPTÉS :\n\n1. Rhumatologue\n- Arthrose, arthrite\n- Douleurs chroniques\n- Maladies inflammatoires\n\n2. Orthopédiste\n- Traumatismes\n- Chirurgie articulaire\n- Prothèses\n\n3. Kinésithérapeute\n- Rééducation\n- Renforcement musculaire\n- Mobilité articulaire\n\nPARCOURS CONSEILLÉ :\n1. Médecin traitant d'abord\n2. Orientation vers spécialiste\n3. Suivi adapté\n\nURGENCE SI :\n- Traumatisme violent\n- Douleur insupportable\n- Blocage complet"
+        ]
+    },
+    {
+        "tag": "problemes_peau",
+        "patterns": [
+            "Quel médecin pour de l'acné ?",
+            "Qui consulter pour de l'eczéma ?",
+            "Spécialiste des grains de beauté ?",
+            "Médecin pour problème de peau ?",
+            "Qui voir pour du psoriasis ?",
+            "Docteur spécialiste allergies cutanées ?",
+            "Quel médecin pour une éruption ?",
+            "Spécialiste des maladies de peau ?",
+            "Qui consulter pour des taches sur la peau ?",
+            "Médecin pour problème capillaire ?"
+        ],
+        "responses": [
+            "Pour les problèmes dermatologiques :\n\nSPÉCIALISTES PRINCIPAUX :\n\n1. Dermatologue\n- Maladies de peau\n- Problèmes capillaires\n- Examens des grains de beauté\n\n2. Allergologue\n- Allergies cutanées\n- Tests allergiques\n- Urticaire\n\n3. Médecin traitant\n- Premiers symptômes\n- Cas simples\n- Renouvellements\n\nQUAND CONSULTER :\n- Lésions qui persistent\n- Démangeaisons intenses\n- Modification grain de beauté\n\nURGENCE SI :\n- Réaction allergique sévère\n- Infection qui s'étend\n- Fièvre associée"
+        ]
+    },
+    {
+        "tag": "problemes_digestifs",
+        "patterns": [
+            "Qui voir pour des problèmes d'estomac ?",
+            "Quel médecin pour le côlon irritable ?",
+            "Spécialiste des problèmes digestifs ?",
+            "Qui consulter pour reflux gastrique ?",
+            "Médecin pour maladie de Crohn ?",
+            "Docteur spécialiste intestins ?",
+            "Qui voir pour problème de foie ?",
+            "Spécialiste pour troubles digestifs chroniques ?",
+            "Quel médecin consulter pour ulcère ?",
+            "Qui voir pour douleurs abdominales chroniques ?"
+        ],
+        "responses": [
+            "Pour les problèmes digestifs :\n\nSPÉCIALISTES ADAPTÉS :\n\n1. Gastro-entérologue\n- Maladies digestives\n- Examens spécialisés\n- Endoscopies\n\n2. Hépatologue\n- Maladies du foie\n- Cirrhose\n- Hépatites\n\n3. Nutritionniste/Diététicien\n- Conseils alimentaires\n- Régimes adaptés\n- Troubles alimentaires\n\nPARCOURS RECOMMANDÉ :\n1. Consultation médecin traitant\n2. Orientation spécialiste\n3. Examens nécessaires\n\nURGENCE SI :\n- Douleur brutale intense\n- Sang dans selles\n- Vomissements répétés"
+        ]
+    },
+    {
+        "tag": "traumatismes_sport",
+        "patterns": [
+            "Qui consulter après blessure sportive ?",
+            "Quel médecin pour déchirure musculaire ?",
+            "Spécialiste blessure sport ?",
+            "Médecin du sport ou kiné ?",
+            "Qui voir pour claquage ?",
+            "Docteur pour entorse cheville sport ?",
+            "Spécialiste traumatologie sport ?",
+            "Quel médecin pour rupture ligament ?",
+            "Qui consulter pour tendinite sport ?",
+            "Médecin spécialisé blessures running ?"
+        ],
+        "responses": [
+            "Pour les blessures sportives :\n\nSPÉCIALISTES CONCERNÉS :\n\n1. Médecin du sport\n- Traumatismes sportifs\n- Conseils reprise\n- Prévention\n\n2. Kinésithérapeute\n- Rééducation\n- Thérapie manuelle\n- Récupération\n\n3. Ostéopathe\n- Troubles biomécaniques\n- Prévention\n- Récupération\n\nPRISE EN CHARGE :\n1. Phase aiguë : RICE\n- Repos\n- Glace\n- Compression\n- Élévation\n\n2. Rééducation\n- Progressive\n- Adaptée au sport\n- Prévention récidive\n\nURGENCE SI :\n- Traumatisme violent\n- Impossibilité appui\n- Gonflement important"
+        ]
+    },
+    {
+        "tag": "problemes_neurologiques",
+        "patterns": [
+            "Qui consulter pour des migraines ?",
+            "Quel médecin pour vertiges ?",
+            "Spécialiste troubles de l'équilibre ?",
+            "Qui voir pour épilepsie ?",
+            "Médecin pour troubles de la mémoire ?",
+            "Docteur spécialiste maux de tête chroniques ?",
+            "Qui consulter pour tremblements ?",
+            "Spécialiste système nerveux ?",
+            "Quel médecin pour sclérose en plaques ?",
+            "Qui voir pour problèmes neurologiques ?"
+        ],
+        "responses": [
+            "Pour les problèmes neurologiques :\n\nSPÉCIALISTES PRINCIPAUX :\n\n1. Neurologue\n- Maladies neurologiques\n- Migraines chroniques\n- Troubles nerveux\n\n2. Neurochirurgien\n- Interventions cerveau\n- Problèmes rachis\n- Tumeurs nerveuses\n\n3. ORL\n- Vertiges\n- Troubles équilibre\n- Problèmes oreille interne\n\nPARCOURS PATIENT :\n1. Bilan médecin traitant\n2. Examens spécialisés\n3. Suivi adapté\n\nURGENCE SI :\n- Perte conscience\n- Paralysie soudaine\n- Confusion brutale\n- Maux tête violents"
+        ]
+    },
+    {
+        "tag": "problemes_oculaires",
+        "patterns": [
+            "Qui voir pour problème de vue ?",
+            "Quel médecin pour œil rouge ?",
+            "Spécialiste des yeux ?",
+            "Qui consulter pour conjonctivite ?",
+            "Médecin pour douleur œil ?",
+            "Docteur spécialiste vision ?",
+            "Qui voir pour corps flottants ?",
+            "Spécialiste glaucome ?",
+            "Quel médecin pour cataracte ?",
+            "Qui consulter pour troubles visuels ?"
+        ],
+        "responses": [
+            "Pour les problèmes oculaires :\n\nSPÉCIALISTES ADAPTÉS :\n\n1. Ophtalmologue\n- Maladies des yeux\n- Prescriptions lunettes\n- Chirurgie oculaire\n\n2. Orthoptiste\n- Rééducation visuelle\n- Troubles vision\n- Strabisme\n\n3. Opticien\n- Équipement visuel\n- Ajustements lunettes\n- Conseils pratiques\n\nEXAMENS RÉGULIERS :\n- Contrôle vue annuel\n- Test tension oculaire\n- Fond d'œil\n\nURGENCE SI :\n- Perte brutale vision\n- Douleur intense\n- Flash lumineux\n- Traumatisme œil"
+        ]
+    },
+    {
+        "tag": "antispasmodiques",
+        "patterns": [
+            "Spasfon, comment le prendre ?",
+            "Quel antispasmodique pour les règles douloureuses ?",
+            "Buscopan ou Spasfon, quelle différence ?",
+            "Dose de Spasfon par jour ?",
+            "Antispasmodique pour les coliques ?",
+            "Je peux prendre du Spasfon pendant la grossesse ?",
+            "Contre-indications du Buscopan ?",
+            "Antispasmodique et allaitement ?",
+            "Douleurs intestinales, quel antispasmodique ?",
+            "Effets secondaires des antispasmodiques ?"
+        ],
+        "responses": [
+            "Information Antispasmodiques :\n\nUTILISATION :\n- Douleurs spasmodiques\n- Règles douloureuses\n- Coliques\n- Douleurs digestives\n\nDOSAGE ADULTE :\n- 1-2 comprimés/prise\n- Max 6 comprimés/jour\n- Intervalle 4-6h\n\nPRÉCAUTIONS :\n- Prise aux repas possible\n- Grossesse : avis médical\n- Pas d'utilisation prolongée\n\nCONSULTER SI :\n- Douleur intense\n- Fièvre associée\n- Symptômes persistent\n- Saignements anormaux"
+        ]
+    },
+    {
+        "tag": "laxatifs",
+        "patterns": [
+            "Quel laxatif choisir ?",
+            "Laxatif naturel ou médicament ?",
+            "Durée maximum utilisation laxatifs ?",
+            "Différents types de laxatifs ?",
+            "Laxatif doux pour constipation occasionnelle ?",
+            "Risques des laxatifs ?",
+            "Constipation, quel médicament prendre ?",
+            "Microlax ou Dulcolax ?",
+            "Laxatif pendant grossesse ?",
+            "Comment éviter dépendance laxatifs ?"
+        ],
+        "responses": [
+            "Information Laxatifs :\n\nTYPES DISPONIBLES :\n1. Osmotiques\n- Action douce\n- Ex: Macrogol\n- Pour usage régulier\n\n2. Stimulants\n- Action rapide\n- Usage occasionnel\n- Ex: Dulcolax\n\nPRÉCAUTIONS :\n- Usage court terme\n- Risque dépendance\n- Hydratation importante\n\nMESURES ASSOCIÉES :\n- Fibres alimentaires\n- Exercice régulier\n- Hydratation suffisante\n\nCONSULTER SI :\n- Usage > 1 semaine\n- Douleurs abdominales\n- Sang dans selles\n- Constipation chronique"
+        ]
+    },
+    {
+        "tag": "vitamines_complements",
+        "patterns": [
+            "Quelles vitamines prendre en hiver ?",
+            "Compléments pour la fatigue ?",
+            "Vitamine D, quelle dose ?",
+            "Meilleur complément de fer ?",
+            "Magnésium, quand en prendre ?",
+            "Vitamines grossesse importantes ?",
+            "Zinc et vitamine C pour immunité ?",
+            "Compléments cheveux et ongles ?",
+            "Oméga 3, quels bienfaits ?",
+            "Probiotiques, quand les prendre ?"
+        ],
+        "responses": [
+            "Guide Vitamines et Compléments :\n\nVITAMINES ESSENTIELLES :\n1. Vitamine D\n- 800-1000 UI/jour\n- Surtout hiver\n- Avec repas gras\n\n2. Complexe B\n- Énergie\n- Système nerveux\n- Matin de préférence\n\n3. Autres compléments\n- Fer : avec vitamine C\n- Magnésium : stress/fatigue\n- Oméga 3 : cœur/cerveau\n\nPRÉCAUTIONS :\n- Pas de surdosage\n- Respect posologies\n- Avis médical si traitement\n\nCONSULTER SI :\n- Fatigue persistante\n- Carences suspectées\n- Effets indésirables"
+        ]
+    },
+    {
+        "tag": "antiseptiques",
+        "patterns": [
+            "Quel antiseptique pour une plaie ?",
+            "Bétadine ou Biseptine ?",
+            "Comment désinfecter une coupure ?",
+            "Meilleur antiseptique pour enfant ?",
+            "Antiseptique pour brûlure légère ?",
+            "Dakin ou eau oxygénée ?",
+            "Durée conservation antiseptique ?",
+            "Antiseptique sans iode ?",
+            "Comment bien désinfecter ?",
+            "Antiseptique pour piercing ?"
+        ],
+        "responses": [
+            "Guide Antiseptiques :\n\nTYPES PRINCIPAUX :\n1. Iodés (Bétadine)\n- Large spectre\n- Tache la peau\n- Action rapide\n\n2. Chlorhexidine\n- Ne pique pas\n- Idéal enfants\n- Usage fréquent\n\nUTILISATION CORRECTE :\n- Nettoyer avant\n- Laisser agir\n- Ne pas rincer\n- Protéger ensuite\n\nPRÉCAUTIONS :\n- Pas de mélange\n- Éviter les yeux\n- Vérifier allergies\n\nCONSULTER SI :\n- Plaie profonde\n- Signes infection\n- Allergie/irritation"
+        ]
+    },
+    {
+        "tag": "cremes_pommades",
+        "patterns": [
+            "Quelle crème pour l'eczéma ?",
+            "Pommade pour les courbatures ?",
+            "Crème anti-inflammatoire efficace ?",
+            "Quelle crème cicatrisante ?",
+            "Pommade pour les brûlures ?",
+            "Crème contre les démangeaisons ?",
+            "Meilleure crème hydratante ?",
+            "Arnica, quand l'utiliser ?",
+            "Crème cortisone sans ordonnance ?",
+            "Pommade pour articulations douloureuses ?"
+        ],
+        "responses": [
+            "Guide Crèmes et Pommades :\n\nTYPES ET USAGES :\n1. Anti-inflammatoires\n- Sur prescription\n- Max 7 jours\n- Pas sur plaies\n\n2. Cicatrisantes\n- Plaies superficielles\n- Brûlures légères\n- Usage régulier\n\n3. Hydratantes\n- Usage quotidien\n- Peau sèche\n- Prévention\n\nAPPLICATION :\n- Peau propre\n- Mains propres\n- Couche fine\n- Massage doux\n\nCONSULTER SI :\n- Pas d'amélioration\n- Réaction cutanée\n- Infection suspectée"
+        ]
+    },
+    {
+        "tag": "douleurs_dentaires",
+        "patterns": [
+            "Mal aux dents qui pulse",
+            "Douleur dentaire la nuit",
+            "Dent sensible au chaud/froid",
+            "Gencives douloureuses",
+            "Douleur après plombage",
+            "Dent qui fait mal au contact",
+            "Rage de dents insupportable",
+            "Douleur mâchoire en mangeant",
+            "Dent du fond douloureuse",
+            "Gencive gonflée et douloureuse"
+        ],
+        "responses": [
+            "Analyse de votre douleur dentaire :\n\nCAUSES POSSIBLES :\n- Carie\n- Abcès\n- Infection gencive\n- Dent fissurée\n\nSOULAGEMENT IMMÉDIAT :\n- Antidouleur adapté\n- Bain de bouche antiseptique\n- Glaçage externe\n- Éviter chaud/froid\n\nPRÉVENTION :\n- Hygiène rigoureuse\n- Contrôles réguliers\n- Soins précoces\n\nCONSULTEZ SI :\n- Douleur intense\n- Gonflement\n- Fièvre associée\n- Insomnie due douleur"
+        ]
+    },
+    {
+        "tag": "douleurs_oculaires",
+        "patterns": [
+            "Yeux qui brûlent écran",
+            "Douleur derrière l'œil",
+            "Sensation de sable dans l'œil",
+            "Yeux fatigués qui font mal",
+            "Pression dans l'œil",
+            "Douleur œil au mouvement",
+            "Yeux secs douloureux",
+            "Mal autour des yeux",
+            "Douleur œil lumière",
+            "Yeux qui piquent travail"
+        ],
+        "responses": [
+            "Analyse de vos douleurs oculaires :\n\nCAUSES COURANTES :\n- Fatigue visuelle\n- Sécheresse oculaire\n- Tension excessive\n- Exposition écrans\n\nSOULAGEMENT :\n1. Immédiat\n- Pauses régulières\n- Larmes artificielles\n- Compresses fraîches\n\n2. Prévention\n- Règle 20-20-20\n- Position écran\n- Lumière adaptée\n\nCONSULTEZ SI :\n- Douleur intense\n- Troubles vision\n- Rougeur importante"
+        ]
+    },
+    {
+        "tag": "douleurs_cou",
+        "patterns": [
+            "Torticolis soudain",
+            "Cou bloqué au réveil",
+            "Douleur cervicales ordinateur",
+            "Cou qui craque douloureux",
+            "Raideur nuque stress",
+            "Douleur cou qui irradie épaule",
+            "Cervicales coincées",
+            "Difficultés tourner tête",
+            "Douleur base du crâne",
+            "Cou douloureux position sommeil"
+        ],
+        "responses": [
+            "Analyse de vos douleurs cervicales :\n\nORIGINES FRÉQUENTES :\n- Mauvaise posture\n- Position sommeil\n- Tension/stress\n- Mouvement brusque\n\nSOULAGEMENT :\n1. Court terme\n- Chaleur locale\n- Massages doux\n- Mouvements lents\n\n2. Prévention\n- Ergonomie travail\n- Étirements réguliers\n- Oreiller adapté\n\nCONSULTEZ SI :\n- Douleur persistante\n- Engourdissements\n- Maux tête associés"
+        ]
+    },
+    {
+        "tag": "douleurs_pieds",
+        "patterns": [
+            "Douleur plante du pied",
+            "Mal au talon le matin",
+            "Douleur voûte plantaire",
+            "Épine calcanéenne",
+            "Pieds qui brûlent debout",
+            "Douleur orteil en marchant",
+            "Pieds gonflés douloureux",
+            "Crampes aux pieds nuit",
+            "Douleur pied à l'appui",
+            "Voûte plantaire douloureuse course"
+        ],
+        "responses": [
+            "Analyse de vos douleurs aux pieds :\n\nCAUSES POSSIBLES :\n- Fasciite plantaire\n- Épine calcanéenne\n- Mauvaises chaussures\n- Surcharge pondérale\n\nSOULAGEMENT :\n1. Actions immédiates\n- Repos/glace\n- Étirements doux\n- Massage rouleau\n\n2. Long terme\n- Chaussures adaptées\n- Semelles si besoin\n- Perte poids si excès\n\nCONSULTEZ SI :\n- Douleur intense\n- Gonflement important\n- Difficultés marche"
+        ]
+    },
+    {
+        "tag": "symptomes_fievre",
+        "patterns": [
+            "Fièvre avec courbatures",
+            "Température qui monte le soir",
+            "Fièvre sans autres symptômes",
+            "Frissons et fièvre",
+            "Température 38.5 que faire",
+            "Fièvre et maux de gorge",
+            "Enfant chaud sans thermomètre",
+            "Fièvre qui dure 3 jours",
+            "Fièvre et fatigue intense",
+            "Température fluctuante journée"
+        ],
+        "responses": [
+            "Gestion de la fièvre :\n\nREPÈRES TEMPÉRATURE :\n- Normale : 37-37.5°C\n- Légère : 37.5-38.5°C\n- Modérée : 38.5-39.5°C\n- Forte : >39.5°C\n\nSOULAGEMENT :\n1. Mesures simples\n- Découvrir légèrement\n- Hydratation fréquente\n- Pièce fraîche\n\n2. Si nécessaire\n- Paracétamol adapté\n- Repos complet\n- Surveillance régulière\n\nCONSULTEZ SI :\n- Fièvre >40°C\n- Durée >3 jours\n- Symptômes graves"
+        ]
+    },
+    {
+        "tag": "symptomes_vertige",
+        "patterns": [
+            "Vertiges en me levant",
+            "Tête qui tourne position",
+            "Sensation d'instabilité",
+            "Vertige avec nausées",
+            "Impression de tanguer",
+            "Vertiges allongé",
+            "Perte équilibre fréquente",
+            "Étourdissements réguliers",
+            "Vertige changement position",
+            "Malaise rotatoire bref"
+        ],
+        "responses": [
+            "Analyse de vos vertiges :\n\nCAUSES FRÉQUENTES :\n- Vertige positionnel\n- Problème oreille interne\n- Hypotension\n- Anxiété/stress\n\nPREMIERS GESTES :\n1. Pendant crise\n- Position assise/allongée\n- Mouvements lents\n- Respiration calme\n\n2. Prévention\n- Lever progressif\n- Hydratation régulière\n- Éviter mouvements brusques\n\nCONSULTEZ SI :\n- Vertiges persistants\n- Chutes fréquentes\n- Autres symptômes associés"
+        ]
+    },
+    {
+        "tag": "problemes_oreilles",
+        "patterns": [
+            "Oreille bouchée depuis quelques jours",
+            "Sensation de coton dans l'oreille",
+            "Bourdonnements dans les oreilles",
+            "Démangeaisons dans le conduit auditif",
+            "Bruit constant dans l'oreille",
+            "Impression d'avoir de l'eau dans l'oreille",
+            "Acouphènes qui dérangent",
+            "Oreille qui siffle",
+            "Cérumen qui gêne",
+            "Sensation de pression dans l'oreille"
+        ],
+        "responses": [
+            "Analyse de vos troubles auditifs :\n\nCAUSES FRÉQUENTES :\n- Bouchon de cérumen\n- Changement pression\n- Exposition bruit\n- Séquelles rhume\n\nSOULAGEMENT :\n1. Pour oreille bouchée\n- Bouchon : huile d'amande douce\n- Gouttes auriculaires adaptées\n- Éviter coton-tige\n\n2. Pour acouphènes\n- Éviter silence total\n- Réduire stress\n- Protection bruit\n\nCONSULTEZ SI :\n- Douleur associée\n- Perte audition\n- Vertiges\n- Écoulement"
+        ]
+    },
+    {
+        "tag": "problemes_nez",
+        "patterns": [
+            "Nez bouché chronique",
+            "Écoulement nasal constant",
+            "Nez qui coule clair",
+            "Éternuements en série",
+            "Sensation de nez sec",
+            "Croûtes dans le nez",
+            "Perte odorat partielle",
+            "Nez bouché un seul côté",
+            "Mucus épais dans le nez",
+            "Picotements dans le nez"
+        ],
+        "responses": [
+            "Analyse de vos problèmes nasaux :\n\nCAUSES POSSIBLES :\n- Rhinite chronique\n- Sinusite débutante\n- Exposition irritants\n- Sécheresse air\n\nSOULAGEMENT :\n1. Quotidien\n- Lavage sérum physio\n- Moucher correctement\n- Humidifier air\n\n2. Prévention\n- Éviter irritants\n- Hydrater muqueuses\n- Aération régulière\n\nCONSULTEZ SI :\n- Fièvre associée\n- Douleur sinus\n- Perte odorat totale\n- Maux tête intenses"
+        ]
+    },
+    {
+        "tag": "problemes_gorge",
+        "patterns": [
+            "Gorge qui gratte constamment",
+            "Raclement de gorge fréquent",
+            "Sensation de boule dans la gorge",
+            "Gorge sèche au réveil",
+            "Voix enrouée régulière",
+            "Irritation gorge qui persiste",
+            "Chatouillement dans la gorge",
+            "Mucus dans la gorge",
+            "Besoin de tousser gorge",
+            "Gorge qui brûle sans douleur"
+        ],
+        "responses": [
+            "Analyse de vos problèmes de gorge :\n\nORIGINES COURANTES :\n- Sécheresse air\n- Reflux gastrique\n- Usage vocal excessif\n- Allergies/irritants\n\nSOULAGEMENT :\n1. Immédiat\n- Boire eau tiède\n- Pastilles adoucissantes\n- Miel/tisanes\n\n2. Habitudes\n- Hydratation suffisante\n- Humidificateur nuit\n- Éviter irritants\n\nCONSULTEZ SI :\n- Voix altérée >2 semaines\n- Difficulté à avaler\n- Ganglions\n- Fièvre associée"
+        ]
+    },
+    {
+        "tag": "sinusite_legere",
+        "patterns": [
+            "Pression dans les sinus",
+            "Douleur visage légère",
+            "Nez bouché et sinus",
+            "Sensation de pesanteur front",
+            "Sinus qui font mal temps",
+            "Congestion sinusale",
+            "Douleur joues et front",
+            "Sinusite débutante",
+            "Sinus pression météo",
+            "Sinus bouchés matin"
+        ],
+        "responses": [
+            "Analyse de vos troubles sinusaux :\n\nFACTEURS FAVORISANTS :\n- Rhume mal soigné\n- Allergies\n- Changements météo\n- Air sec/pollution\n\nSOULAGEMENT :\n1. Naturel\n- Inhalations vapeur\n- Lavages nasaux\n- Huiles essentielles adaptées\n\n2. Environnement\n- Humidifier air\n- Position sommeil surélevée\n- Éviter climatisation directe\n\nCONSULTEZ SI :\n- Douleur intense\n- Fièvre\n- Écoulement coloré\n- Symptômes > 10 jours"
+        ]
+    },
+    {
+        "tag": "raclements_toux",
+        "patterns": [
+            "Raclement gorge constant",
+            "Toux sèche persistante",
+            "Besoin de racler la gorge",
+            "Toux qui ne passe pas",
+            "Chatouilles gorge toux",
+            "Toux sans être malade",
+            "Raclement gorge matin",
+            "Toux irritative chronique",
+            "Toux nerveuse",
+            "Raclement gorge après repas"
+        ],
+        "responses": [
+            "Analyse de votre toux/raclement :\n\nCAUSES FRÉQUENTES :\n- Reflux gastrique\n- Écoulement post-nasal\n- Irritation chronique\n- Facteurs environnementaux\n\nSOULAGEMENT :\n1. Mesures simples\n- Boire eau régulièrement\n- Éviter air sec\n- Surélever tête lit\n\n2. Adaptations\n- Repas légers soir\n- Éviter déclencheurs\n- Techniques relaxation\n\nCONSULTEZ SI :\n- Toux >3 semaines\n- Essoufflement\n- Modification voix\n- Troubles sommeil importants"
+        ]
+    },
+    {
+        "tag": "problemes_oreilles",
+        "patterns": [
+            "Oreille bouchée depuis quelques jours",
+            "Sensation de coton dans l'oreille",
+            "Bourdonnements dans les oreilles",
+            "Démangeaisons dans le conduit auditif",
+            "Bruit constant dans l'oreille",
+            "Impression d'avoir de l'eau dans l'oreille",
+            "Acouphènes qui dérangent",
+            "Oreille qui siffle",
+            "Cérumen qui gêne",
+            "Sensation de pression dans l'oreille"
+        ],
+        "responses": [
+            "Analyse de vos troubles auditifs :\n\nCAUSES FRÉQUENTES :\n- Bouchon de cérumen\n- Changement pression\n- Exposition bruit\n- Séquelles rhume\n\nSOULAGEMENT :\n1. Pour oreille bouchée\n- Bouchon : huile d'amande douce\n- Gouttes auriculaires adaptées\n- Éviter coton-tige\n\n2. Pour acouphènes\n- Éviter silence total\n- Réduire stress\n- Protection bruit\n\nCONSULTEZ SI :\n- Douleur associée\n- Perte audition\n- Vertiges\n- Écoulement"
+        ]
+    },
+    {
+        "tag": "problemes_nez",
+        "patterns": [
+            "Nez bouché chronique",
+            "Écoulement nasal constant",
+            "Nez qui coule clair",
+            "Éternuements en série",
+            "Sensation de nez sec",
+            "Croûtes dans le nez",
+            "Perte odorat partielle",
+            "Nez bouché un seul côté",
+            "Mucus épais dans le nez",
+            "Picotements dans le nez"
+        ],
+        "responses": [
+            "Analyse de vos problèmes nasaux :\n\nCAUSES POSSIBLES :\n- Rhinite chronique\n- Sinusite débutante\n- Exposition irritants\n- Sécheresse air\n\nSOULAGEMENT :\n1. Quotidien\n- Lavage sérum physio\n- Moucher correctement\n- Humidifier air\n\n2. Prévention\n- Éviter irritants\n- Hydrater muqueuses\n- Aération régulière\n\nCONSULTEZ SI :\n- Fièvre associée\n- Douleur sinus\n- Perte odorat totale\n- Maux tête intenses"
+        ]
+    },
+    {
+        "tag": "problemes_gorge",
+        "patterns": [
+            "Gorge qui gratte constamment",
+            "Raclement de gorge fréquent",
+            "Sensation de boule dans la gorge",
+            "Gorge sèche au réveil",
+            "Voix enrouée régulière",
+            "Irritation gorge qui persiste",
+            "Chatouillement dans la gorge",
+            "Mucus dans la gorge",
+            "Besoin de tousser gorge",
+            "Gorge qui brûle sans douleur"
+        ],
+        "responses": [
+            "Analyse de vos problèmes de gorge :\n\nORIGINES COURANTES :\n- Sécheresse air\n- Reflux gastrique\n- Usage vocal excessif\n- Allergies/irritants\n\nSOULAGEMENT :\n1. Immédiat\n- Boire eau tiède\n- Pastilles adoucissantes\n- Miel/tisanes\n\n2. Habitudes\n- Hydratation suffisante\n- Humidificateur nuit\n- Éviter irritants\n\nCONSULTEZ SI :\n- Voix altérée >2 semaines\n- Difficulté à avaler\n- Ganglions\n- Fièvre associée"
+        ]
+    },
+    {
+        "tag": "sinusite_legere",
+        "patterns": [
+            "Pression dans les sinus",
+            "Douleur visage légère",
+            "Nez bouché et sinus",
+            "Sensation de pesanteur front",
+            "Sinus qui font mal temps",
+            "Congestion sinusale",
+            "Douleur joues et front",
+            "Sinusite débutante",
+            "Sinus pression météo",
+            "Sinus bouchés matin"
+        ],
+        "responses": [
+            "Analyse de vos troubles sinusaux :\n\nFACTEURS FAVORISANTS :\n- Rhume mal soigné\n- Allergies\n- Changements météo\n- Air sec/pollution\n\nSOULAGEMENT :\n1. Naturel\n- Inhalations vapeur\n- Lavages nasaux\n- Huiles essentielles adaptées\n\n2. Environnement\n- Humidifier air\n- Position sommeil surélevée\n- Éviter climatisation directe\n\nCONSULTEZ SI :\n- Douleur intense\n- Fièvre\n- Écoulement coloré\n- Symptômes > 10 jours"
+        ]
+    },
+    {
+        "tag": "raclements_toux",
+        "patterns": [
+            "Raclement gorge constant",
+            "Toux sèche persistante",
+            "Besoin de racler la gorge",
+            "Toux qui ne passe pas",
+            "Chatouilles gorge toux",
+            "Toux sans être malade",
+            "Raclement gorge matin",
+            "Toux irritative chronique",
+            "Toux nerveuse",
+            "Raclement gorge après repas"
+        ],
+        "responses": [
+            "Analyse de votre toux/raclement :\n\nCAUSES FRÉQUENTES :\n- Reflux gastrique\n- Écoulement post-nasal\n- Irritation chronique\n- Facteurs environnementaux\n\nSOULAGEMENT :\n1. Mesures simples\n- Boire eau régulièrement\n- Éviter air sec\n- Surélever tête lit\n\n2. Adaptations\n- Repas légers soir\n- Éviter déclencheurs\n- Techniques relaxation\n\nCONSULTEZ SI :\n- Toux >3 semaines\n- Essoufflement\n- Modification voix\n- Troubles sommeil importants"
+        ]
+    },
+    {
+        "tag": "ideation_suicidaire",
+        "patterns": [
+            "Je pense au suicide",
+            "J'ai envie d'en finir",
+            "Je ne veux plus vivre",
+            "Je vois pas l'intérêt de continuer",
+            "Je veux mourir",
+            "Je pense à me faire du mal",
+            "Je ne supporte plus la vie",
+            "Je suis un poids pour tout le monde",
+            "La vie ne vaut plus la peine",
+            "J'ai tout prévu pour en finir"
+        ],
+        "responses": [
+            "Je prends très au sérieux ce que vous me dites. Votre vie a de la valeur et il existe des personnes formées pour vous aider immédiatement :\n\nContactez le 3114 (24h/24, gratuit, anonyme)\nNuméro national prévention suicide\n\nVous pouvez aussi :\n- Appeler SOS Amitié : 09 72 39 40 50\n- Contacter les urgences (15)\n- Parler à votre médecin\n- Vous rendre aux urgences\n\nVous n'êtes pas seul(e). Des professionnels sont là pour vous écouter sans jugement et vous aider à traverser ce moment difficile. Demander de l'aide est un acte de courage."
+        ]
+    },
+    {
+        "tag": "deuil",
+        "patterns": [
+            "Je n'arrive pas à faire mon deuil",
+            "Comment surmonter la perte d'un proche",
+            "Je souffre depuis la mort de",
+            "Je n'accepte pas son départ",
+            "Comment vivre après la perte de",
+            "Je me sens vide depuis son décès",
+            "Le deuil est trop dur",
+            "J'arrive pas à avancer depuis sa mort",
+            "Comment gérer le chagrin du deuil",
+            "La douleur du deuil est insupportable"
+        ],
+        "responses": [
+            "Je comprends votre douleur et votre chagrin. Le deuil est un processus unique à chacun, il n'y a pas de durée ni de façon 'normale' de le vivre.\n\nQuelques points à retenir :\n- Vos émotions sont légitimes\n- Prenez le temps nécessaire\n- Chaque jour est différent\n- Il est normal d'avoir des hauts et des bas\n\nPour vous accompagner :\n- Parlez à vos proches\n- Rejoignez un groupe de parole\n- Consultez un professionnel\n- Gardez vos routines\n\nDe l'aide existe :\n- Associations d'accompagnement deuil\n- Psychologues spécialisés\n- Groupes de soutien\n\nN'hésitez pas à chercher du soutien, vous n'avez pas à traverser cela seul(e)."
+        ]
+    },
+    {
+        "tag": "sentiment_solitude",
+        "patterns": [
+            "Je me sens terriblement seul",
+            "Personne ne me comprend",
+            "Je n'ai personne à qui parler",
+            "La solitude me pèse",
+            "Je me sens isolé de tout",
+            "J'ai l'impression d'être invisible",
+            "Je n'arrive pas à créer des liens",
+            "La solitude me rend malade",
+            "Je me sens abandonné",
+            "Comment sortir de l'isolement"
+        ],
+        "responses": [
+            "Je comprends que cette solitude soit difficile à vivre. C'est une expérience douloureuse mais il existe des moyens d'en sortir.\n\nQuelques suggestions :\n- Associations locales\n- Activités de groupe\n- Bénévolat\n- Sport en groupe\n- Cours collectifs\n\nPour commencer doucement :\n- Forums en ligne\n- Applications sociales\n- Groupes d'entraide\n- Clubs de loisirs\n\nSoutien disponible :\n- Lignes d'écoute\n- Psychologues\n- Assistants sociaux\n- Groupes de parole\n\nN'oubliez pas : créer des liens prend du temps, commencez petit à petit. Vous méritez d'être entouré(e)."
+        ]
+    },
+    {
+        "tag": "perte_sens",
+        "patterns": [
+            "Je ne trouve plus de sens à ma vie",
+            "Je ne sais plus pourquoi je vis",
+            "Ma vie n'a plus de sens",
+            "Je me sens inutile",
+            "Je ne sais plus quoi faire de ma vie",
+            "Je ne vois plus mon but dans la vie",
+            "J'ai perdu mes repères",
+            "Plus rien n'a d'importance",
+            "Je ne sais plus qui je suis",
+            "Ma vie me semble vide"
+        ],
+        "responses": [
+            "Ce que vous traversez est difficile, et vos questionnements sont légitimes. Perdre le sens de sa vie est une expérience déstabilisante mais temporaire.\n\nPistes de réflexion :\n- Qu'est-ce qui vous passionnait avant ?\n- Quelles sont vos valeurs ?\n- Qu'aimeriez-vous apporter aux autres ?\n\nActions possibles :\n- Journal personnel\n- Nouveaux projets\n- Aide aux autres\n- Exploration créative\n\nSoutien professionnel :\n- Psychologue\n- Coach de vie\n- Groupes de développement personnel\n\nPrenez le temps de vous reconnecter à vous-même. Le sens peut se reconstruire petit à petit."
+        ]
+    },
+    {
+        "tag": "burn_out_parental",
+        "patterns": [
+            "Je n'en peux plus avec mes enfants",
+            "Épuisement parental total",
+            "Je craque avec les enfants",
+            "Je me sens nulle comme parent",
+            "Je n'arrive plus à gérer mes enfants",
+            "Je suis au bout avec les enfants",
+            "Fatigue parentale extrême",
+            "Je n'y arrive plus comme parent",
+            "Je culpabilise avec mes enfants",
+            "Surmenage parental"
+        ],
+        "responses": [
+            "L'épuisement parental est réel et vous n'êtes pas un(e) mauvais(e) parent(e) pour ressentir cela. C'est une situation qui demande du soutien.\n\nPour vous soulager :\n- Acceptez l'aide proposée\n- Prenez des pauses\n- Partagez les tâches\n- Simplifiez le quotidien\n\nRessources disponibles :\n- PMI\n- Associations familiales\n- Groupes parents\n- Aide à domicile\n\nSoutien professionnel :\n- Psychologue familial\n- Médiateur familial\n- Assistant social\n\nN'oubliez pas : prendre soin de vous est aussi prendre soin de vos enfants. Demander de l'aide est un signe de force."
+        ]
+    },
+    {
+        "tag": "incendie_domicile",
+        "patterns": [
+            "Comment réagir en cas d'incendie chez moi ?",
+            "Que faire si ça brûle dans mon appartement ?",
+            "Il y a le feu dans ma maison",
+            "Procédure en cas d'incendie domicile",
+            "Feu dans la cuisine",
+            "Comment éteindre un début d'incendie ?",
+            "Feu électrique maison",
+            "Il y a de la fumée chez moi",
+            "Évacuation incendie appartement",
+            "Feu dans une pièce de la maison"
+        ],
+        "responses": [
+            "URGENCE - APPELEZ IMMÉDIATEMENT LE 18 OU 112\n\nPROCÉDURE IMMÉDIATE :\n1. Si petit feu\n- Utiliser extincteur\n- Couverture anti-feu\n- Coupez électricité/gaz\n\n2. Si feu important\n- Évacuez immédiatement\n- Fermez portes derrière vous\n- Ne prenez pas l'ascenseur\n\nPROTECTION :\n- Rampez sous la fumée\n- Couvrez nez/bouche\n- Point rassemblement\n\nPRÉVENTION VITALE :\n- Détecteurs fumée\n- Extincteur accessible\n- Plan évacuation\n- Issues dégagées"
+        ]
+    },
+    {
+        "tag": "feu_cuisine",
+        "patterns": [
+            "Feu de friteuse que faire",
+            "Casserole qui prend feu",
+            "Huile qui s'enflamme cuisine",
+            "Feu de graisse que faire",
+            "Comment éteindre feu huile",
+            "Feu sur plaque cuisson",
+            "Feu de graisse dans cuisine",
+            "Flammes pendant cuisson",
+            "Comment éteindre feu cuisine",
+            "Feu pendant que je cuisine"
+        ],
+        "responses": [
+            "ACTIONS IMMÉDIATES :\n\nFEU D'HUILE/GRAISSE :\n- JAMAIS d'eau\n- Coupez gaz/électricité\n- Étouffez avec couvercle\n- Utilisez couverture anti-feu\n\nSI FEU CONTENU :\n- Plaque métal grande\n- Extincteur classe F\n- Bicarbonate soude\n\nSI FEU SE PROPAGE :\n- Évacuez\n- Appelez pompiers (18)\n- Fermez porte cuisine\n\nPRÉVENTION :\n- Surveillance constante\n- Extincteur adapté\n- Détecteur fumée\n- Installation conforme"
+        ]
+    },
+    {
+        "tag": "prevention_incendie",
+        "patterns": [
+            "Comment éviter un incendie",
+            "Prévention incendie maison",
+            "Sécurité incendie domicile",
+            "Risques incendie à la maison",
+            "Mesures anti incendie",
+            "Protection contre le feu",
+            "Équipement sécurité incendie",
+            "Conseils prévention incendie",
+            "Comment sécuriser sa maison contre le feu",
+            "Éviter les départs de feu"
+        ],
+        "responses": [
+            "Prévention des incendies domestiques :\n\nÉQUIPEMENTS ESSENTIELS :\n1. Obligatoires\n- Détecteurs fumée/étage\n- Extincteur adapté\n- Plan évacuation\n\n2. Recommandés\n- Couverture anti-feu\n- Échelle secours\n- Détecteur CO2\n\nBONS GESTES :\n- Installations électriques vérifiées\n- Pas de surcharge prises\n- Surveillance cuisson\n- Mégots bien éteints\n\nENTRETIEN :\n- Ramonage annuel\n- Test détecteurs mensuel\n- Vérification extincteurs\n- Issues dégagées"
+        ]
+    },
+    {
+        "tag": "feu_electrique",
+        "patterns": [
+            "Feu prise électrique",
+            "Appareil électrique qui brûle",
+            "Court-circuit incendie",
+            "Fil électrique qui brûle",
+            "Feu dans tableau électrique",
+            "Comment éteindre feu électrique",
+            "Prise qui fume",
+            "Surchauffe électrique",
+            "Feu installation électrique",
+            "Câbles qui brûlent"
+        ],
+        "responses": [
+            "URGENCE FEU ÉLECTRIQUE :\n\nPREMIERS GESTES :\n1. Sécurisation\n- Coupez courant général\n- N'utilisez pas d'eau\n- Éloignez-vous\n\n2. Si petit feu\n- Extincteur CO2/poudre\n- Jamais d'eau\n- Débranchez si possible\n\nSI FEU IMPORTANT :\n- Évacuez\n- Appelez pompiers (18)\n- Prévenez voisins\n\nPRÉVENTION :\n- Installation aux normes\n- Vérifications régulières\n- Pas de surcharge\n- Matériel certifié"
+        ]
+    },
+    {
+        "tag": "evacuation_incendie",
+        "patterns": [
+            "Comment évacuer en cas d'incendie",
+            "Plan évacuation incendie",
+            "Sortir d'un bâtiment en feu",
+            "Procédure évacuation feu",
+            "Comment sortir si incendie",
+            "Evacuation fumée immeuble",
+            "Sortie secours incendie",
+            "Route évacuation feu",
+            "Fuite incendie bâtiment",
+            "Comment s'échapper du feu"
+        ],
+        "responses": [
+            "PROCÉDURE ÉVACUATION URGENTE :\n\nACTIONS IMMÉDIATES :\n1. Avant de sortir\n- Touchez portes (chaleur)\n- Fermez portes derrière vous\n- Prenez clés/téléphone\n\n2. Déplacement\n- Rampez sous fumée\n- Suivez murs\n- Utilisez escaliers\n- JAMAIS ascenseur\n\nSI BLOQUÉ :\n- Calfeutrez porte\n- Signalez présence fenêtre\n- Mouillez tissus\n- Appelez secours\n\nPOINT RASSEMBLEMENT :\n- Lieu défini\n- Comptage personnes\n- Attendez pompiers\n- Ne retournez pas"
+        ]
+    },
+    {
+        "tag": "apres_incendie",
+        "patterns": [
+            "Que faire après un incendie",
+            "Démarches après feu maison",
+            "Assurance incendie logement",
+            "Procédure après sinistre incendie",
+            "Nettoyage après incendie",
+            "Réparations post-incendie",
+            "Dégâts des fumées",
+            "Documents après incendie",
+            "Expertise incendie maison",
+            "Réintégrer logement après feu"
+        ],
+        "responses": [
+            "Démarches post-incendie :\n\nPREMIERES 24H :\n1. Urgences\n- Contactez assurance\n- Photos dégâts\n- Sécurisez lieux\n- Hébergement urgence\n\n2. Documents\n- Déclaration sinistre\n- Liste dégâts\n- Factures/justificatifs\n\nDÉMARCHES :\n- Expert assurance\n- Mairie si besoin\n- Relogement temporaire\n- Entreprises spécialisées\n\nSÉCURITÉ :\n- Attendre autorisation retour\n- Vérification structure\n- Contrôles installations\n- Nettoyage professionnel"
+        ]
+    },
+    {
+        "tag": "tension_normale",
+        "patterns": [
+            "Quelle est la tension normale",
+            "Chiffres tension artérielle normaux",
+            "À partir de quand la tension est trop haute",
+            "Statistiques hypertension population",
+            "Tension normale selon l'âge",
+            "Quand s'inquiéter tension",
+            "Moyenne tension adulte",
+            "Valeurs tension à surveiller",
+            "Normes pression artérielle",
+            "Chiffres hypertension"
+        ],
+        "responses": [
+            "Valeurs de tension artérielle :\n\nTENSION NORMALE :\n- Optimale : 120/80 mmHg\n- Normale : < 140/90 mmHg\n- Limite : 140-159/90-99 mmHg\n\nSTATISTIQUES :\n- 30% adultes hypertendus\n- Plus fréquent après 50 ans\n- 60% hypertendus +65 ans\n\nSURVEILLANCE :\n- Mesure repos\n- Même heure\n- Position assise\n\nCONSULTEZ SI :\n- >140/90 régulièrement\n- <90/60 avec symptômes\n- Variations importantes"
+        ]
+    },
+    {
+        "tag": "imc_poids",
+        "patterns": [
+            "IMC normal quel chiffre",
+            "Statistiques obésité France",
+            "Poids normal pour ma taille",
+            "Pourcentage population surpoids",
+            "Chiffres obésité par âge",
+            "IMC moyen population",
+            "Statistiques poids santé",
+            "Normes IMC selon âge",
+            "Évolution obésité France",
+            "Calcul IMC normal"
+        ],
+        "responses": [
+            "Statistiques IMC et poids :\n\nCATÉGORIES IMC :\n- Maigreur : < 18.5\n- Normal : 18.5-24.9\n- Surpoids : 25-29.9\n- Obésité : ≥ 30\n\nSTATISTIQUES FRANCE :\n- 47% population poids normal\n- 30% surpoids\n- 17% obésité\n- Progression +5% en 10 ans\n\nFACTEURS INFLUENCE :\n- Âge\n- Mode de vie\n- Alimentation\n- Activité physique\n\nNOTE : IMC = indicateur général\nAutres facteurs à considérer :\n- Masse musculaire\n- Répartition graisses\n- Morphologie"
+        ]
+    },
+    {
+        "tag": "glycemie_normale",
+        "patterns": [
+            "Taux de sucre normal",
+            "Statistiques diabète population",
+            "Glycémie normale à jeun",
+            "Pourcentage diabétiques France",
+            "Chiffres glycémie à surveiller",
+            "Moyenne glycémie population",
+            "Normes diabète",
+            "Statistiques hyperglycémie",
+            "Évolution diabète France",
+            "Valeurs glycémie normales"
+        ],
+        "responses": [
+            "Valeurs de glycémie et statistiques :\n\nGLYCÉMIE NORMALE :\n- À jeun : 0.7-1.1 g/L\n- 2h après repas : < 1.4 g/L\n\nDIAGNOSTIC DIABÈTE :\n- À jeun > 1.26 g/L\n- Après repas > 2 g/L\n\nSTATISTIQUES FRANCE :\n- 5.6% population diabétique\n- 700 000 non diagnostiqués\n- 90% type 2\n- +3% par an\n\nFACTEURS RISQUE :\n- Âge > 45 ans\n- Surpoids/obésité\n- Sédentarité\n- Hérédité"
+        ]
+    },
+    {
+        "tag": "cholesterol_normal",
+        "patterns": [
+            "Taux cholestérol normal",
+            "Statistiques cholestérol France",
+            "Valeurs normales cholestérol",
+            "Moyenne cholestérol population",
+            "Chiffres hypercholestérolémie",
+            "Normes LDL HDL",
+            "Statistiques lipides sang",
+            "Taux cholestérol à surveiller",
+            "Pourcentage population cholestérol",
+            "Évolution cholestérol âge"
+        ],
+        "responses": [
+            "Normes cholestérol et statistiques :\n\nVALEURS NORMALES :\n- Cholestérol total : < 2g/L\n- LDL : < 1.6 g/L\n- HDL : > 0.4 g/L\n\nSTATISTIQUES :\n- 20% adultes concernés\n- Plus fréquent après 50 ans\n- 70% non traités\n\nFACTEURS RISQUE :\n- Alimentation\n- Sédentarité\n- Génétique\n- Âge/sexe\n\nSURVEILLANCE :\n- Bilan annuel\n- À jeun\n- Régime adapté"
+        ]
+    },
+    {
+        "tag": "cancer_stats",
+        "patterns": [
+            "Statistiques cancer France",
+            "Chiffres cancer par type",
+            "Évolution cancer population",
+            "Pourcentage survie cancer",
+            "Statistiques guérison cancer",
+            "Nombre cas cancer annuel",
+            "Cancer plus fréquent",
+            "Risque cancer âge",
+            "Stats dépistage cancer",
+            "Taux mortalité cancer"
+        ],
+        "responses": [
+            "Statistiques cancer en France :\n\nINCIDENCE ANNUELLE :\n- 400 000 nouveaux cas\n- 150 000 décès\n- 3.8 millions survivants\n\nCANCERS FRÉQUENTS :\nHommes :\n- Prostate\n- Poumon\n- Côlon-rectum\n\nFemmes :\n- Sein\n- Côlon-rectum\n- Poumon\n\nSURVIE À 5 ANS :\n- Variable selon type\n- 63% moyenne globale\n\nPRÉVENTION :\n- Dépistages organisés\n- Facteurs mode de vie\n- Suivi régulier"
+        ]
+    },
+    {
+        "tag": "esperance_vie",
+        "patterns": [
+            "Espérance de vie France",
+            "Statistiques longévité",
+            "Durée vie moyenne",
+            "Évolution espérance vie",
+            "Age moyen décès",
+            "Stats mortalité France",
+            "Espérance vie homme femme",
+            "Comparaison espérance vie pays",
+            "Facteurs espérance vie",
+            "Prévisions espérance vie"
+        ],
+        "responses": [
+            "Espérance de vie en France :\n\nCHIFFRES ACTUELS :\n- Hommes : 79.3 ans\n- Femmes : 85.4 ans\n- Moyenne : 82.5 ans\n\nÉVOLUTION :\n- +10 ans depuis 1970\n- +3 mois par an\n- Ralentissement récent\n\nFACTEURS INFLUENCE :\n- Mode de vie\n- Accès soins\n- Niveau social\n- Région\n\nCOMPARAISONS :\n- 7e rang mondial\n- 2e Europe\n- Écart H/F diminue"
+        ]
+    },
+    {
+        "tag": "causes_deces_principales",
+        "patterns": [
+            "Principales causes de décès en France",
+            "De quoi meurent les Français",
+            "Mortalité causes fréquentes",
+            "Statistiques causes décès",
+            "Première cause de mortalité",
+            "Classement causes de mort",
+            "Taux mortalité par maladie",
+            "Décès les plus fréquents",
+            "Statistiques mortalité France",
+            "De quoi meurt-on le plus"
+        ],
+        "responses": [
+            "Principales causes de décès en France :\n\nCAUSES MAJEURES :\n1. Maladies cardiovasculaires\n- 140 000 décès/an\n- 25% des décès\n- Première cause +65 ans\n\n2. Cancers\n- 150 000 décès/an\n- 28% des décès\n- Première cause < 65 ans\n\n3. Accidents/Suicides\n- 40 000 décès/an\n- Première cause 15-35 ans\n\n4. Maladies respiratoires\n- 35 000 décès/an\n- 6% des décès\n\nNOTE : Ces statistiques varient selon\n- Âge\n- Sexe\n- Région\n- Mode de vie"
+        ]
+    },
+    {
+        "tag": "mortalite_age",
+        "patterns": [
+            "Taux de mortalité par âge",
+            "À quel âge meurt-on le plus",
+            "Statistiques décès selon âge",
+            "Mortalité différents âges",
+            "Risque décès selon âge",
+            "Âge moyen décès France",
+            "Taux survie par âge",
+            "Stats mortalité tranches âge",
+            "Mortalité jeunes vs âgés",
+            "Répartition décès âges"
+        ],
+        "responses": [
+            "Mortalité par âge en France :\n\nÂGE MOYEN DÉCÈS :\n- Hommes : 79 ans\n- Femmes : 85 ans\n\nPAR TRANCHE D'ÂGE :\n0-1 an :\n- 3.5/1000 naissances\n\n15-24 ans :\n- Principalement accidents\n- 0.4/1000\n\n25-64 ans :\n- Cancers principale cause\n- 2.5/1000\n\n65+ ans :\n- Maladies cardiovasculaires\n- 40/1000\n\nVARIATIONS :\n- Niveau social\n- Mode de vie\n- Région"
+        ]
+    },
+    {
+        "tag": "mortalite_evitable",
+        "patterns": [
+            "Décès évitables statistiques",
+            "Morts qui auraient pu être évitées",
+            "Taux mortalité prématurée",
+            "Stats décès évitables",
+            "Mortalité prématurée chiffres",
+            "Décès évitables France",
+            "Prévention mortalité stats",
+            "Morts évitables par an",
+            "Statistiques prévention décès",
+            "Réduction mortalité évitable"
+        ],
+        "responses": [
+            "Mortalité évitable en France :\n\nDÉFINITION :\nDécès avant 65 ans évitables par :\n- Prévention primaire\n- Soins adaptés\n\nCHIFFRES ANNUELS :\n- 30% décès évitables\n- 80 000 cas/an\n\nCAUSES PRINCIPALES :\n1. Mode de vie\n- Tabac : 75 000 décès\n- Alcool : 41 000 décès\n- Sédentarité : 40 000 décès\n\n2. Prévention\n- Dépistages tardifs\n- Vaccination insuffisante\n- Suivis irréguliers\n\nAMÉLIORATIONS POSSIBLES :\n- Campagnes prévention\n- Accès soins\n- Éducation santé"
+        ]
+    },
+    {
+        "tag": "mortalite_comparaison",
+        "patterns": [
+            "Comparaison mortalité pays",
+            "Taux décès différents pays",
+            "Stats mortalité monde",
+            "Classement mortalité pays",
+            "Différences mortalité international",
+            "Taux décès Europe comparaison",
+            "Mortalité France vs autres",
+            "Stats décès par pays",
+            "Comparatif mortalité mondial",
+            "Différences taux mortalité"
+        ],
+        "responses": [
+            "Comparaisons internationales mortalité :\n\nFRANCE VS MONDE :\nPosition mondiale :\n- 7e espérance vie\n- 2e Europe\n\nTAUX MORTALITÉ (/1000) :\n- France : 9.2\n- UE moyenne : 10.3\n- USA : 8.9\n- Japon : 11.1\n\nVARIATIONS CAUSES :\nPays développés :\n- Maladies chroniques\n- Cancers\n\nPays en développement :\n- Maladies infectieuses\n- Malnutrition\n\nFACTEURS CLÉS :\n- Système santé\n- Niveau vie\n- Mode vie"
+        ]
+    },
+    {
+        "tag": "mortalite_infantile",
+        "patterns": [
+            "Taux mortalité infantile France",
+            "Stats décès nourrissons",
+            "Mortalité bébés chiffres",
+            "Statistiques mort subite nourrisson",
+            "Taux survie nouveaux nés",
+            "Mortalité première année vie",
+            "Stats décès enfants bas âge",
+            "Causes mortalité infantile",
+            "Évolution mortalité bébés",
+            "Chiffres décès nourrissons"
+        ],
+        "responses": [
+            "Mortalité infantile en France :\n\nTAUX ACTUEL :\n- 3.5/1000 naissances\n- Baisse continue\n- 10e rang mondial\n\nÉVOLUTION :\n1950 : 52/1000\n1980 : 10/1000\n2000 : 4.5/1000\n2023 : 3.5/1000\n\nCAUSES PRINCIPALES :\n- Prématurité\n- Malformations\n- Mort subite\n- Complications accouchement\n\nFACTEURS RISQUE :\n- Âge mère\n- Suivi grossesse\n- Niveau social\n- Accès soins\n\nPRÉVENTION :\n- Suivi prénatal\n- Accès soins néonataux\n- Éducation parents"
+        ]
+    },
+    {
+        "tag": "accidents_mortels",
+        "patterns": [
+            "Stats accidents mortels",
+            "Chiffres morts accidentelles",
+            "Statistiques décès accidents",
+            "Taux mortalité accidents route",
+            "Nombre morts accidents domestiques",
+            "Stats décès accidentels",
+            "Mortalité par accident type",
+            "Statistiques accidents mortels France",
+            "Causes accidents mortels",
+            "Évolution mortalité accidentelle"
+        ],
+        "responses": [
+            "Statistiques accidents mortels France :\n\nROUTE :\n- 3000 décès/an\n- Baisse 50% en 20 ans\n- 1e cause 18-25 ans\n\nDOMESTIQUES :\n- 20 000 décès/an\n- Majoritairement +65 ans\n- Chutes principale cause\n\nTRAVAIL :\n- 500 décès/an\n- BTP plus touché\n- Transport 2e cause\n\nLOISIRS/SPORT :\n- 1000 décès/an\n- Noyade principale cause\n- Sports extrêmes\n\nPRÉVENTION :\n- Réglementation\n- Sensibilisation\n- Équipements sécurité"
+        ]
+    }
+  ]
+}
